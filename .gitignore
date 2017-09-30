@@ -1,0 +1,8 @@
+.idea
+_website/
+__pycache__
+.doctrees
+*.pyc
+p-env/
+out/
+**/*_generated.rst

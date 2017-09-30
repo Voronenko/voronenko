@@ -1,0 +1,15 @@
+curl -sSL http://bit.ly/slavkodotfiles > bootstrap.sh && chmod +x bootstrap.sh && ./bootstrap.sh
+
+REMOTE BOX - GET PUB KEYS FROM GITHUB
+
+curl -L http://bit.ly/voronenko | bash -s
+
+Sudoer:
+curl -L  http://bit.ly/sudoer | bash -s
+
+
+Port knock
+
+curl -sSL http://bit.ly/portknock > knock.py
+
+knock.py host -d 1 port sequence
