@@ -8,8 +8,6 @@ docs: out/html/index.html
 
 out/html/index.html: README.rst docs/_static/css/* p-env/bin/sphinx-build # docs/_templates/* preprocess_sources
 	@echo "Ablog build ${PWD}"
-	@mkdir -p ../out/html/blog
-#	@cd docs && ../p-env/bin/ablog build -w ../out/html
 	@p-env/bin/sphinx-build -W docs out/html
 	@touch $@
 	@echo "Website was generated at '$@'."
