@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">softasap Blog</title>
   <id>True/blog/atom.xml</id>
-  <updated>2017-10-02T19:42:57.067022Z</updated>
+  <updated>2017-10-02T19:52:23.214687Z</updated>
   <link href="True" />
   <link href="True/blog/atom.xml" rel="self" />
   <generator uri="http://ablog.readthedocs.org" version="0.8.4">ABlog</generator>
