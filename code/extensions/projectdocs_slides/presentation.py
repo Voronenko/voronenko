@@ -3,6 +3,8 @@
 
 import os, sys, re
 
+from os.path import basename
+
 import projectdocs_slides
 
 try:
@@ -328,6 +330,7 @@ def process_presentations(app, doctree):
         presentation_info = {
             'docname': docname,
             'section': section_name,
+            'content': node['content'],
             'order': order,
             'title': title,
             'tags': node['tags'],
@@ -348,8 +351,24 @@ def generate_presentation_pages(app):
     context = {}
     manager = PresentationsManager(app)
     manager.register_presentations()
-    for presentation in manager.presentations:
+    for presentation in manager.presentations['all']:
         yield (presentation.docname, context, 'presentation.html')
+
+    generate_presentation_markdown(app, manager.presentations)
+
+
+
+def generate_presentation_markdown(app, presentations):
+
+    markdown_path = os.path.join(app.builder.outdir, 'slides/')
+    for presentation in presentations['all']:
+        targetmd=os.path.join(markdown_path, basename(presentation.docname) + ".md")
+        with open(targetmd, 'w') as out:
+            try:
+                out.write(presentation.options['content'].encode('utf-8'))
+            except TypeError:
+                out.write("error retrieving markdown document")
+
 
 
 def process_presentation_list(app, doctree, docname):
@@ -591,6 +610,9 @@ class Catalog(PresentationPageMixin):
             coll = self[label]
             coll.add(presentation)
             colls.append(coll)
+        coll = self['all']
+        coll.add(presentation)
+        colls.append(coll)
         setattr(presentation, self.name, colls)
 
     def _minmax(self):

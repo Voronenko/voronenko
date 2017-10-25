@@ -4,6 +4,7 @@ import os
 from .presentation import PresentationsManager, PresentationDirective, CONFIG, PresentationNode
 
 from .presentation import process_presentations, generate_presentation_pages, process_presentation_list
+from .presentation import generate_presentation_markdown
 
 __version__ = '0.0.1'
 
