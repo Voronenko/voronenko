@@ -11,3 +11,7 @@ Introduction
 
 Install powershell
 
+
+.. raw:: html
+
+    <iframe src="/slides/demo_presentation.html" height="500px" width="100%"></iframe>

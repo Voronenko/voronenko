@@ -352,6 +352,7 @@ def generate_presentation_pages(app):
     manager = PresentationsManager(app)
     manager.register_presentations()
     for presentation in manager.presentations['all']:
+        context['external_presentation_address'] = basename(presentation.docname) + ".md"
         yield (presentation.docname, context, 'presentation.html')
 
     generate_presentation_markdown(app, manager.presentations)
