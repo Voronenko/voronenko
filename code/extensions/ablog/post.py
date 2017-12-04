@@ -2,6 +2,7 @@
 """post and postlist directives."""
 
 import os
+import errno
 import sys
 from string import Formatter
 from datetime import datetime
@@ -656,6 +657,13 @@ def generate_atom_feeds(app):
                      url=post_url,
                      id=post_url,
                      updated=post.update, published=post.date)
+
+        if not os.path.exists(os.path.dirname(feed_path)):
+            try:
+                os.makedirs(os.path.dirname(feed_path))
+            except OSError as exc:  # Guard against race condition
+                if exc.errno != errno.EEXIST:
+                    raise
 
         with open(feed_path, 'w') as out:
             feed_str = feed.to_string()
