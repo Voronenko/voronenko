@@ -23,7 +23,7 @@ class PresentationEmbedDirective(rst.Directive):
     node_class = presentationembed
 
     has_content = False
-    required_arguments = 3
+    required_arguments = 0
     optional_arguments = 0
     final_argument_whitespace = False
     option_spec = {
