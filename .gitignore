@@ -6,3 +6,4 @@ __pycache__
 p-env/
 out/
 **/*_generated.rst
+*.swp

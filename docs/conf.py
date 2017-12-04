@@ -10,17 +10,15 @@
 import os
 import sys
 
+sys.path.append(os.path.abspath('../code/doc_builders'))
+sys.path.append(os.path.abspath('../code/extensions'))
+
 from datetime import datetime
 import sphinx.environment
 from docutils.utils import get_source_line
 
-# custom builders
-import os, sys
-sys.path.append(os.path.abspath('../code/doc_builders'))
-sys.path.append(os.path.abspath('../code/extensions'))
-# /custom builders
-
 import ablog
+import projectdocs_slides
 
 # -- General ABlog Options ----------------------------------------------------
 
@@ -174,6 +172,7 @@ extensions = [
     'sphinx.ext.todo',
     'alabaster',
     'ablog',
+    'projectdocs_slides',
     'gist',
 ]
 
@@ -186,7 +185,7 @@ suppress_warnings = [
 
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates', ablog.get_html_templates_path()]
+templates_path = ['_templates', ablog.get_html_templates_path(), projectdocs_slides.get_html_templates_path()]
 
 # The suffix(es) of source filenames.
 source_suffix = '.rst'
@@ -290,7 +289,7 @@ html_theme_path = ["./_themes"]
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['./_static']
+html_static_path = ['./_static', '../code/extensions/projectdocs_slides/static']
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
