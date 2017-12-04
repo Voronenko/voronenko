@@ -6,6 +6,8 @@ from .presentation import PresentationsManager, PresentationDirective, CONFIG, P
 from .presentation import process_presentations, generate_presentation_pages, process_presentation_list
 from .presentation import generate_presentation_markdown
 
+from . import presentation_embed_directive
+
 __version__ = '0.0.1'
 
 
@@ -56,6 +58,10 @@ def setup(app):
     pkgdir = os.path.abspath(os.path.dirname(__file__))
     locale_dir = os.path.join(pkgdir, 'locale')
     app.config.locale_dirs.append(locale_dir)
+
+    app.add_node(presentation_embed_directive.presentationembed,
+                 html=(presentation_embed_directive.visit, presentation_embed_directive.depart))
+    app.add_directive('presentation_embed', presentation_embed_directive.PresentationEmbedDirective)
 
     return {'version': __version__}   # identifies the version of our extension
 

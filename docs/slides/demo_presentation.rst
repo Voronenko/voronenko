@@ -1,5 +1,5 @@
 .. presentation:: Apr 15, 2014
-   :title: demo_presentation 
+   :title: demo_presentation
    :tags: earth, love, peace
    :category: python
 

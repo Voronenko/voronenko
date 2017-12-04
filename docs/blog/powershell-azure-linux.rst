@@ -12,6 +12,9 @@ Introduction
 Install powershell
 
 
-.. raw:: html
+Presentation embed:
 
-    <iframe src="/slides/demo_presentation.html" height="500px" width="100%"></iframe>
+.. presentation_embed::
+    :presentation: demo_presentation
+    :width: 500px
+    :height: 100%
