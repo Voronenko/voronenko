@@ -13,3 +13,9 @@ Port knock
 curl -sSL http://bit.ly/portknock > knock.py
 
 knock.py host -d 1 port sequence
+
+
+Hyperv checkpoint fix
+
+apt-get install --install-recommends linux-virtual-lts-xenial
+apt-get install --install-recommends linux-tools-virtual-lts-xenial linux-cloud-tools-virtual-lts-xenial 
