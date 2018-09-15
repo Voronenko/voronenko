@@ -8,8 +8,8 @@
               <div class="row-fluid">
               <div class="span1">
                  <!-- <a href="http://www.linkedin.com/in/voronenkovyacheslav/" rel="nofollow" target="_blank"> -->
-                  <img alt="Profile Picture" class="photo"
-                                      src="http://m.c.lnkd.licdn.com/media/p/4/000/142/0c7/3746976.jpg"/>
+            <img alt="Profile Picture" class="photo" width="100" height="100"
+                                src="https://media.licdn.com/dms/image/C5603AQHsBjVK8u0d_A/profile-displayphoto-shrink_200_200/0?e=1542240000&v=beta&t=ntWOnf29l_hYu9azo24vpHELfpsu0RTuXNF9IcfPh2I"/>
                   <!--</a>-->
               </div>
               <div class="span5 n fn">
