@@ -27,8 +27,7 @@
                           <dt class="phone-home phone-number">
                               <span class="label">Voice mail:</span>
                            </dt>
-                              <dd class="content">+48(50)734-3222</dd>
-                              <dd class="content">+44(18)6541-4381</dd>
+                              <dd class="content">+44(56)0302-0608</dd>
                            <!--
                           <dt class="url-expanded member-url-resource">
                               <span class="label">Linkedin profile:</span></dt>
