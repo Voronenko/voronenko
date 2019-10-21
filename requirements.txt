@@ -33,4 +33,4 @@ sphinxcontrib-seqdiag==0.8.5
 sphinxcontrib-websupport==1.0.1
 urllib3==1.22
 webcolors==1.7
-Werkzeug==0.12.2
+Werkzeug==0.15.3
