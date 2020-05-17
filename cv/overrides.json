@@ -1,0 +1,66 @@
+{
+  "basics": {
+    "email": "expertise-request[at]voronenko.info",
+    "phone": "+44(56)0302-0608",
+  },
+  "languages": [
+   {
+    "language": "English",
+    "fluency": "C1/B2",
+    "description": "IELTS-7 Professional working proficiency"
+   },
+   {
+    "language": "Ukranian",
+    "fluency": "Native",
+    "description": "Native or bilingual proficiency"
+   },
+   {
+    "language": "Polish",
+    "fluency": "B2/C1",
+    "description": "Native or bilingual proficiency, confirmed at B1"
+   },
+   {
+    "language": "Russian",
+    "fluency": "Native",
+    "description": "Native or bilingual proficiency"
+   }
+
+  ],
+  "interests": [
+    {
+    "name": "DevOps",
+    "keywords": [
+      "AWS",
+      "Cloud"
+    ]
+    },
+    {
+    "name": "Startups",
+    "keywords": [
+      "Culture",
+      "RnD"
+    ]
+    }
+  ],
+  "references": [
+  {
+    "name": "Tommy C",
+    "position": "Lead DevSecOps Engineer at Domain",
+    "reference": "Professional with a wide scope of skills, Vyacheslav assisted me with a number of issues in relation to personal and professional code requirements. Prompt, trustworthy and extremely technical. i would recommend Vyacheslav to any organisation looking for a collaborative expert.",
+    "url": "https://www.linkedin.com/in/voronenkovyacheslav/"
+  },
+  {
+    "name": "Kostyantyn T",
+    "position": "PMP",
+    "reference": "Vyacheslav is an excellent IT specialist and Team Leader. Having a deep knowledge in web technologies, he designs an excellent architecture based on customer needs. He supports and coaches developers giving the harder tasks and supports them according to their professional growth. Vyacheslav always investigates the new technologies and thinks how to implement it in real projects. He is the one of the first in our department, who wrote an iPhone application. His expertise is always based on facts. He never takes the tasks that don't have enough information. He helps to identify hidden project requirements and gaps in business analysis. As one of the strongest IT experts, he is actively involved in initial determination of projects resource requirements, schedule, budget and initial risks, helping project managers and sales to win the project. I strongly recommend Vyacheslav as IT leader and as an excellent expert on project initiation estimation ",
+    "url": "https://www.linkedin.com/in/voronenkovyacheslav/"
+  },
+  {
+    "name": "Mike S",
+    "position": "CEO WIZEWERX LTD",
+    "reference": "We have an *awesome*, fast, startup wallet friendly  docker swarm cluster for Amazemeet, DeckSender and all the other playthings that I'm involved in. It's secure, resilient and scaleable and costs less than $100 a month to run 8 servers across 5 locations. To replicate on AWS would cost  x5. All possible because Vyacheslav Voronenko helped me build it with his huge depth of experience in dev and ops and his passion for the entire space. If you are building anything that needs servers, connect with him",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:6656154610920681473/"
+  }
+
+ ]
+}

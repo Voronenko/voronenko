@@ -3,3 +3,4 @@ p-env
 site
 *.tmp
 .vscode
+.ipynb_checkpoints
