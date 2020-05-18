@@ -38,8 +38,10 @@ plugins:
 # Configuration
 theme:
   name: 'material'
+  custom_dir: theme_overrides
 #  logo: 'images/logo.svg'
   language: 'en'
+#  custom_dir: overrides
   palette:
     primary: 'blue-grey'
     accent: 'light-blue'

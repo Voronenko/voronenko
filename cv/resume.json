@@ -146,6 +146,9 @@
          "language": "Russian"
       }
    ],
+   "meta": {
+      "theme": "elegant"
+   },
    "publications": [
       {
          "fullReleaseDate": {

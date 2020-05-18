@@ -4,3 +4,4 @@ site
 *.tmp
 .vscode
 .ipynb_checkpoints
+.idea

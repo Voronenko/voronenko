@@ -5,6 +5,7 @@ local overridesJson = importstr './overrides.json';
 local parsedOverridesJson = std.parseJson(overridesJson);
 
 {
+  meta: { "theme": "elegant" },
   basics: parsedConnectedJson.basics + parsedOverridesJson.basics ,
   work: [
             ({
