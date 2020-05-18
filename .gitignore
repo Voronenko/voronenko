@@ -5,3 +5,5 @@ site
 .vscode
 .ipynb_checkpoints
 .idea
+out
+node_modules
