@@ -1,12 +1,12 @@
 {
   "basics": {
-    "email": "expertise-request[at]voronenko.info",
-    "phone": "+44(56)0302-0608",
+    "email": "expertise-request@voronenko.info",
+    "phone": "+44(56)0302-0608"
   },
   "languages": [
    {
     "language": "English",
-    "fluency": "C1/B2",
+    "fluency": "B2/C1 (IELTS-7)",
     "description": "IELTS-7 Professional working proficiency"
    },
    {
@@ -26,6 +26,122 @@
    }
 
   ],
+
+  "skills": [
+    {
+    "name": "Software Project Management",
+    "level": "Expert",
+    "keywords": [
+      "Requirements Analysis",
+      "Software Design"
+      ]
+    },
+    {
+      "name": "DEVOPS",
+      "level": "Advanced",
+      "keywords": [
+        "Continious Integration",
+        "Infrastructure",
+        "Provisioning",
+        "Cloud",
+        "VM",
+        "ESXi"
+      ]
+    },
+    {
+      "name": "cd/ci",
+      "level": "Advanced",
+      "keywords": [
+        "Jenkins",
+        "GitLab",
+        "CircleCI"
+      ]
+    },
+    {
+      "name": "provisioning",
+      "level": "Expert",
+      "keywords": [
+        "ansible",
+        "chef",
+        "shell"
+      ]
+    },
+    {
+      "name": "cloud",
+      "level": "Expert",
+      "keywords": [
+        "aws",
+        "digitalocean",
+        "vps",
+        "openshift"
+      ]
+    },
+    {
+      "name": "containers",
+      "level": "Expert",
+      "keywords": [
+        "docker",
+        "swarm",
+        "traefik",
+        "ecs",
+        "kubernetes",
+        "k3s"
+      ]
+    },
+    {
+      "name": "Client Stack",
+      "level": "Expert",
+      "keywords": [
+        "javascript",
+        "AngularJS",
+        "unit-testing",
+        "e2e"
+      ]
+    },
+    {
+      "name": "Nodejs",
+      "level": "Expert",
+      "keywords": [
+        "express",
+        "restify"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Expert",
+      "keywords": [
+        "mongoose",
+        "monitoring",
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": ".NET",
+      "level": "Intermediate",
+      "keywords": [
+        "c#",
+        "Razor",
+        "SSRS",
+        "asp.net MVC",
+        "DI-ninject"
+      ]
+    },
+    {
+      "name": "Random",
+      "level": "average",
+      "keywords": [
+        "Google Closure",
+        "HTML5 gaming",
+        "HTML5",
+        "InnoDB tuning",
+        "T-SQL",
+        "yii",
+        "yii2",
+        "lamp"
+      ]
+    }
+  ],
+
   "interests": [
     {
     "name": "DevOps",

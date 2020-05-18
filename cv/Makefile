@@ -1,2 +1,5 @@
 build:
-	jq -s '.[0] * .[1]' connected.json overrides.json
+	jsonnet build.jsonnet > resume.json
+debug:
+	jsonnet build.jsonnet > resume.json
+	jsonnet build.jsonnet
