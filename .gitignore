@@ -1,9 +1,7 @@
+p-env
+.venv
+site
+*.tmp
+.vscode
+.ipynb_checkpoints
 .idea
-_website/
-__pycache__
-.doctrees
-*.pyc
-p-env/
-out/
-**/*_generated.rst
-*.swp

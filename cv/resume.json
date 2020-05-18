@@ -1,0 +1,683 @@
+{
+   "awards": [
+      {
+         "awarder": "Prometric",
+         "date": "2013-01-01",
+         "fullDate": {
+            "month": 1,
+            "year": 2013
+         },
+         "summary": "",
+         "title": "Programming in HTML5 with JavaScript and CSS3 (Microsoft 70-480)"
+      },
+      {
+         "awarder": "IBM",
+         "date": "2005-06-01",
+         "fullDate": {
+            "month": 6,
+            "year": 2005
+         },
+         "summary": "",
+         "title": "IBM Certified Solution Developer, XML and Related technologies"
+      },
+      {
+         "awarder": "Project Management Institute(PMI) via Prometric Testing Center",
+         "date": "2012-04-01",
+         "fullDate": {
+            "month": 4,
+            "year": 2012
+         },
+         "summary": "Credential ID 1498620",
+         "title": "Project Management Professional"
+      }
+   ],
+   "basics": {
+      "blog": null,
+      "email": "expertise-request@voronenko.info",
+      "followers": 65,
+      "following": 65,
+      "headline": "Bespoke sw development, PM experience (PMP cert), DevOps(Terraform, Ansible, Docker), AWS, CI (Jenkins/Gitlab/..), Kubernetes, JS ,MEAN, Python,Go, Win/.NET",
+      "id": "da884063-3144-426d-82cf-6095fbc6adbe",
+      "karma": 11,
+      "label": "Seasoned software engineer, with practical devops and project management experience (PMP cert)",
+      "location": { },
+      "name": "Vyacheslav",
+      "phone": "+44(56)0302-0608",
+      "picture": "https://avatars3.githubusercontent.com/u/701233?v=4",
+      "profiles": [
+         {
+            "network": "gitconnected",
+            "url": "https://gitconnected.com/Voronenko",
+            "username": "Voronenko"
+         },
+         {
+            "network": "GitHub",
+            "url": "https://github.com/Voronenko",
+            "username": "Voronenko"
+         },
+         {
+            "network": "LinkedIn",
+            "url": "https://www.linkedin.com/in/voronenkovyacheslav/",
+            "username": "voronenkovyacheslav"
+         },
+         {
+            "network": "Twitter",
+            "url": "https://twitter.com/slavko",
+            "username": "slavko"
+         },
+         {
+            "network": "Medium",
+            "url": "https://medium.com/@voronenko",
+            "username": "voronenko"
+         },
+         {
+            "network": "Reddit",
+            "url": "https://www.reddit.com/user/voronenko",
+            "username": "voronenko"
+         },
+         {
+            "network": "AngelList",
+            "url": "https://angel.co/voronenko",
+            "username": "voronenko"
+         }
+      ],
+      "region": "Europe",
+      "summary": "I provide Ops, software development services. On a remote, solo or as a part of remote distributed teams. Open for opportunities as an independent consultant. I do also provide short term consulting.\n\nMy Github profile describes myself better than any nice work description on a profile :) Do you have a problem that needs to be solved?\n\nHigh load, bespoke sw development, PM experience (PMP cert) , DevOps(PAAS & Cloud), CI (Jenkins / Bamboo), Pure JS stack, MEAN, Win. stack (asp.net MVC, MSSQL)\n\nIn s/d since 1998, approximately 7 times x 3 years technology periods, during which I was working with\nneeded at that moment set of technologies. Roles covered were (depending on project) - software developer, lead developer, project architect project manager.\n\n2017- continued working with startups: R&D activities, cloud, containers, devops ; develop in MEAN stack and python ; some rare things like XL Deploy/Release enterprise devops platform plugins;\n2014-2017 working with startups: devops, mean",
+      "username": "Voronenko",
+      "website": "http://www.voronenko.info",
+      "yearsOfExperience": 15
+   },
+   "education": [
+      {
+         "activities": "",
+         "area": "Applied Mathematics, Software Development",
+         "courses": [ ],
+         "description": "",
+         "end": {
+            "month": 4,
+            "year": 1999
+         },
+         "endDate": "1999-04-01",
+         "gpa": "",
+         "institution": "Lviv Polytechnic National University",
+         "start": {
+            "month": 9,
+            "year": 1994
+         },
+         "startDate": "1994-09-01",
+         "studyType": "Master's degree"
+      }
+   ],
+   "interests": [
+      {
+         "keywords": [
+            "AWS",
+            "Cloud"
+         ],
+         "name": "DevOps"
+      },
+      {
+         "keywords": [
+            "Culture",
+            "RnD"
+         ],
+         "name": "Startups"
+      }
+   ],
+   "languages": [
+      {
+         "description": "IELTS-7 Professional working proficiency",
+         "fluency": "B2/C1 (IELTS-7)",
+         "language": "English"
+      },
+      {
+         "description": "Native or bilingual proficiency",
+         "fluency": "Native",
+         "language": "Ukranian"
+      },
+      {
+         "description": "Native or bilingual proficiency, confirmed at B1",
+         "fluency": "B2/C1",
+         "language": "Polish"
+      },
+      {
+         "description": "Native or bilingual proficiency",
+         "fluency": "Native",
+         "language": "Russian"
+      }
+   ],
+   "meta": {
+      "theme": "elegant"
+   },
+   "publications": [
+      {
+         "fullReleaseDate": {
+            "day": 25,
+            "month": 4,
+            "year": 2020
+         },
+         "name": "Unobtrusive local development with kubernetes, k3s, traefik2",
+         "publisher": "",
+         "releaseDate": "2020-04-01",
+         "summary": "Running local kubernetes cluster with k3s, traefik2 and letsencrypt. This is followup to my local docker development environment described here https://github.com/Voronenko/traefik2-compose-template. In addition to classic dockerized projects, I also have number of…",
+         "website": "https://medium.com/@V_Voronenko/unobtrusive-local-development-with-kubernetes-k3s-traefik2-d203d4167369"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 22,
+            "month": 4,
+            "year": 2020
+         },
+         "name": "Unobtrusive local development with traefik2, docker and letsencrypt",
+         "publisher": "",
+         "releaseDate": "2020-04-01",
+         "summary": "When it comes to developing sites that use subdomains, this can be a challenging or boring task to set up in development because localhost isn’t a fully qualified domain name. You can’t just goto…",
+         "website": "https://medium.com/@V_Voronenko/unobtrusive-local-development-with-traefik2-docker-and-letsencrypt-2d1944dd851f"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 29,
+            "month": 3,
+            "year": 2020
+         },
+         "name": "Microservices: integrating kong api gateway with Auth0 authentication provider",
+         "publisher": "",
+         "releaseDate": "2020-03-01",
+         "summary": "I used to work with several startups recently. Authentication is present in any product you do. Authentication is not simple. Not hard in the development sense well-defined standards such as OAuth2…",
+         "website": "https://medium.com/@V_Voronenko/microservices-integrating-kong-api-gateway-with-auth0-authentication-provider-6b6a9f27a69a"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 9,
+            "month": 6,
+            "year": 2019
+         },
+         "name": "Your personal knowledge base with JupyterLab",
+         "publisher": "",
+         "releaseDate": "2019-06-01",
+         "summary": "Long long time ago I was using Evernote as a my personal knowledge base. I was collecting snippets of knowledge from my projects I was working on. One of the constant challenges was ensuring that I…",
+         "website": "https://medium.com/@V_Voronenko/your-personal-knowledge-base-with-jupyterlab-cc22147ad56e"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 29,
+            "month": 5,
+            "year": 2019
+         },
+         "name": "Wildcard certificates from letsencrypt on aws cloud",
+         "publisher": "",
+         "releaseDate": "2019-05-01",
+         "summary": "Article describes approach to generate wildcard certificates on aws route53 using credentials with limited scope. Full example with terraform and certbot /acme.sh steps.",
+         "website": "https://medium.com/@V_Voronenko/wildcard-certificates-from-letsencrypt-on-aws-cloud-b49b144dc475"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 6,
+            "month": 4,
+            "year": 2019
+         },
+         "name": "Sharing sensitive variables between ansible and terraform",
+         "publisher": "",
+         "releaseDate": "2019-04-01",
+         "summary": "Simple proof of concept, how to share some sensitive variables between terraform and ansible in a way that allows committing into git, while also being reasonably easy to decrypt, and be used…",
+         "website": "https://medium.com/@V_Voronenko/sharing-sensitive-variables-between-ansible-and-terraform-9d3316a88b93"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 6,
+            "month": 2,
+            "year": 2019
+         },
+         "name": "Creating parametrized PowerShell one-liners",
+         "publisher": "",
+         "releaseDate": "2019-02-01",
+         "summary": "Coming from unix world, I really enjoy so-called one-liners — easy to remember commands that do some useful bootstrapping. That approach works pretty well on linux, thus when I have windows related…",
+         "website": "https://medium.com/@V_Voronenko/creating-parametrized-powershell-one-liners-1b3a5a26579b"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 29,
+            "month": 1,
+            "year": 2019
+         },
+         "name": "Forwarding mi gateway multicasts from remote locations",
+         "publisher": "",
+         "releaseDate": "2019-01-01",
+         "summary": "Actually, this article is the memory for myself. Article describes notes on setting up network infrastructure with remote xiaomi mi gateways, so the openhab will still receive multicasts with sensors…",
+         "website": "https://medium.com/@V_Voronenko/forwarding-mi-gateway-multicasts-from-remote-locations-cb8f01043aab"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 1,
+            "month": 9,
+            "year": 2018
+         },
+         "name": "Controlling Amazon echo dot with shell: a bit of fun",
+         "publisher": "",
+         "releaseDate": "2018-09-01",
+         "summary": "Quick overview illustrating possibility to send some commands, including text to speech to amazon echo devices without need to write custom Amazon skill, using either shell or nodejs",
+         "website": "https://medium.com/@V_Voronenko/controlling-amazon-echo-dot-with-shell-a-bit-of-fun-546b36781797"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 27,
+            "month": 6,
+            "year": 2018
+         },
+         "name": "Kubernetes on docker for Windows and few crocodiles…",
+         "publisher": "",
+         "releaseDate": "2018-06-01",
+         "summary": "POC on using kubernetes bundled with docker for windows as a quick alternative to minikube or minishift. We discuss how to expose cluster outside of windows localhost as well as how to deploy.",
+         "website": "https://medium.com/@V_Voronenko/kubernetes-on-docker-for-windows-and-few-crocodiles-48944a5f9d5"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 13,
+            "month": 7,
+            "year": 2018
+         },
+         "name": "Creating kubernetes cluster with AWS EKS",
+         "publisher": "",
+         "releaseDate": "2018-07-01",
+         "summary": "AWS provides comprehensive guide to start with EKS, this article is generally implemented guide with terraform to get unattended installation of the kubernetes cluster happen.",
+         "website": "https://medium.com/@V_Voronenko/creating-kubernetes-cluster-with-aws-eks-7ec20db1842e"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 21,
+            "month": 3,
+            "year": 2018
+         },
+         "name": "Generating letsencrypt wildcard certificate with certbot",
+         "publisher": "",
+         "releaseDate": "2018-03-01",
+         "summary": "As you might know, letsencrypt ssl certificates officially reached production state, see https://community.letsencrypt.org/t/acme-v2-production-environment-wildcards/55578 . It is time to give it a…",
+         "website": "https://medium.com/@V_Voronenko/generating-letsencrypt-wildcard-certificate-with-certbot-31890f23da00"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 20,
+            "month": 9,
+            "year": 2017
+         },
+         "name": "https://medium.com/@V_Voronenko/using-ansible-container-to-build-your-next-application-base-image-2385b2b49d3e",
+         "publisher": "",
+         "releaseDate": "2017-09-01",
+         "summary": "Describes approach for the ansible-container to be used to construct and build application images in docker. In particular, choosing init system, running multiple services withing container.",
+         "website": "https://medium.com/@V_Voronenko/using-ansible-container-to-build-your-next-application-base-image-2385b2b49d3e"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 11,
+            "month": 3,
+            "year": 2017
+         },
+         "name": "Documentation as a project",
+         "publisher": "",
+         "releaseDate": "2017-03-01",
+         "summary": "Quick knowledge sharing on approaches for project documentation. From personal use to dedicated documentation workflows. Outcomes: tooling suggestion, usage cases, documentation project bootstap.",
+         "website": "https://medium.com/@V_Voronenko/documentation-as-a-project-574c00e05cb4"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 15,
+            "month": 1,
+            "year": 2017
+         },
+         "name": "Approach for implementing git-flow releasing model",
+         "publisher": "",
+         "releaseDate": "2017-01-01",
+         "summary": "Perhaps most of developers are familiar with git-flow model, that makes release process controlled. In this article I would demonstrate one of approaches to introduce git-flow releasing in your…",
+         "website": "https://medium.com/@V_Voronenko/approach-for-implementing-git-flow-releasing-model-8d37ea4764c"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 28,
+            "month": 12,
+            "year": 2016
+         },
+         "name": "Automating SSL encryption for your servers with LetsEncrypt and Ansible",
+         "publisher": "",
+         "releaseDate": "2016-12-01",
+         "summary": "Lets Encrypt (http://www.letsencrypt.org/‎) — probably most known authority supplying free grean seal certificates. In this article I will share with you, how I make use of letsencrypt as a part of…",
+         "website": "https://medium.com/@V_Voronenko/automating-ssl-encryption-for-your-servers-with-letsencrypt-and-ansible-e211c726f1c8"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 17,
+            "month": 12,
+            "year": 2016
+         },
+         "name": "Master jump box to access your network resources",
+         "publisher": "",
+         "releaseDate": "2016-12-01",
+         "summary": "A jump server or jump host or jumpbox is a (special-purpose) computer on a network typically used to access devices in a separate security zone. The most common example is managing a host in a DMZ…",
+         "website": "https://medium.com/@V_Voronenko/jump-box-a917fce73e86"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 10,
+            "month": 11,
+            "year": 2016
+         },
+         "name": "Quickly add your github keys as authorized to your virtual server",
+         "publisher": "",
+         "releaseDate": "2016-11-01",
+         "summary": "As a software developer, I constantly work with a bunch of virtual environments used for testing. The first step I do — is switch from password ssh authorization to authorization by public key. AWS…",
+         "website": "https://medium.com/@V_Voronenko/quickly-add-your-github-keys-as-authorized-to-your-virtual-server-e8581cf06b41"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 19,
+            "month": 10,
+            "year": 2016
+         },
+         "name": "Make Your Development Environment Ready While You Drink a Coffee",
+         "publisher": "",
+         "releaseDate": "2016-10-01",
+         "summary": "As a contractor — software developer, I remaster my work environment often, depending on project requirements. Depending on NDA, sometimes I work remotely on provided boxes. It is important for me to…",
+         "website": "https://medium.com/@V_Voronenko/make-your-development-environment-ready-while-you-drink-a-coffee-dc26e231ee8d"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 16,
+            "month": 10,
+            "year": 2016
+         },
+         "name": "Storing Tree like Hierarchy Structures With MongoDB, Part 2",
+         "publisher": "",
+         "releaseDate": "2016-10-01",
+         "summary": "In real life almost any project deals with the tree structures. Different kinds of taxonomies, site structures etc require modelling of hierarchy relations. In this article I will illustrate using…",
+         "website": "https://medium.com/@V_Voronenko/storing-tree-like-hierarchy-structures-with-mongodb-part-2-bf35ad1f25ef"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 16,
+            "month": 10,
+            "year": 2016
+         },
+         "name": "Storing Tree like Hierarchy Structures With MongoDB",
+         "publisher": "",
+         "releaseDate": "2016-10-01",
+         "summary": "In a real life almost any project deals with the tree structures. Different kinds of taxonomies, site structures etc require modeling of hierarchy relations. In this article I will illustrate using…",
+         "website": "https://medium.com/@V_Voronenko/storing-tree-like-hierarchy-structures-with-mongodb-4f97b7bee472"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 14,
+            "month": 10,
+            "year": 2016
+         },
+         "name": "Deploying ruby application with ansible",
+         "publisher": "",
+         "releaseDate": "2016-10-01",
+         "summary": "Nowadays, you can get your own dedicated server up and running in a seconds. Once you get it up, do you really spent several hours to configure it for your application needs ? Do you really want to…",
+         "website": "https://medium.com/@V_Voronenko/deploying-ruby-application-with-ansible-82a1ed8b97be"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 27,
+            "month": 2,
+            "year": 2016
+         },
+         "name": "Automating network mastering scenarios for Amazon VPC",
+         "publisher": "",
+         "releaseDate": "2016-02-01",
+         "summary": "For a long time Amazon Web Services is one of the most often used platforms to deploy and run new projects. For more complex project you usually start with mastering your network infrastructure…",
+         "website": "https://medium.com/@V_Voronenko/automating-network-mastering-scenarios-for-amazon-vpc-db3133a5f33f"
+      },
+      {
+         "fullReleaseDate": {
+            "day": 2,
+            "month": 12,
+            "year": 2012
+         },
+         "name": "Google two step authentication — in debug",
+         "publisher": "",
+         "releaseDate": "2012-12-01",
+         "summary": "Have you have enabled your Google account for two step authentication? If not — I strongly recommend to do so. Do you know the nature of the code generated by Google Authenticator? There are no myths…",
+         "website": "https://medium.com/@V_Voronenko/google-two-step-authentication-in-debug-1621a4dc4013"
+      }
+   ],
+   "references": [
+      {
+         "name": "Tommy C",
+         "position": "Lead DevSecOps Engineer at Domain",
+         "reference": "Professional with a wide scope of skills, Vyacheslav assisted me with a number of issues in relation to personal and professional code requirements. Prompt, trustworthy and extremely technical. i would recommend Vyacheslav to any organisation looking for a collaborative expert.",
+         "url": "https://www.linkedin.com/in/voronenkovyacheslav/"
+      },
+      {
+         "name": "Kostyantyn T",
+         "position": "PMP",
+         "reference": "Vyacheslav is an excellent IT specialist and Team Leader. Having a deep knowledge in web technologies, he designs an excellent architecture based on customer needs. He supports and coaches developers giving the harder tasks and supports them according to their professional growth. Vyacheslav always investigates the new technologies and thinks how to implement it in real projects. He is the one of the first in our department, who wrote an iPhone application. His expertise is always based on facts. He never takes the tasks that don't have enough information. He helps to identify hidden project requirements and gaps in business analysis. As one of the strongest IT experts, he is actively involved in initial determination of projects resource requirements, schedule, budget and initial risks, helping project managers and sales to win the project. I strongly recommend Vyacheslav as IT leader and as an excellent expert on project initiation estimation ",
+         "url": "https://www.linkedin.com/in/voronenkovyacheslav/"
+      },
+      {
+         "name": "Mike S",
+         "position": "CEO WIZEWERX LTD",
+         "reference": "We have an *awesome*, fast, startup wallet friendly  docker swarm cluster for Amazemeet, DeckSender and all the other playthings that I'm involved in. It's secure, resilient and scaleable and costs less than $100 a month to run 8 servers across 5 locations. To replicate on AWS would cost  x5. All possible because Vyacheslav Voronenko helped me build it with his huge depth of experience in dev and ops and his passion for the entire space. If you are building anything that needs servers, connect with him",
+         "url": "https://www.linkedin.com/feed/update/urn:li:activity:6656154610920681473/"
+      }
+   ],
+   "skills": [
+      {
+         "keywords": [
+            "Requirements Analysis",
+            "Software Design"
+         ],
+         "level": "Expert",
+         "name": "Software Project Management"
+      },
+      {
+         "keywords": [
+            "Continious Integration",
+            "Infrastructure",
+            "Provisioning",
+            "Cloud",
+            "VM",
+            "ESXi"
+         ],
+         "level": "Advanced",
+         "name": "DEVOPS"
+      },
+      {
+         "keywords": [
+            "Jenkins",
+            "GitLab",
+            "CircleCI"
+         ],
+         "level": "Advanced",
+         "name": "cd/ci"
+      },
+      {
+         "keywords": [
+            "ansible",
+            "chef",
+            "shell"
+         ],
+         "level": "Expert",
+         "name": "provisioning"
+      },
+      {
+         "keywords": [
+            "aws",
+            "digitalocean",
+            "vps",
+            "openshift"
+         ],
+         "level": "Expert",
+         "name": "cloud"
+      },
+      {
+         "keywords": [
+            "docker",
+            "swarm",
+            "traefik",
+            "ecs",
+            "kubernetes",
+            "k3s"
+         ],
+         "level": "Expert",
+         "name": "containers"
+      },
+      {
+         "keywords": [
+            "javascript",
+            "AngularJS",
+            "unit-testing",
+            "e2e"
+         ],
+         "level": "Expert",
+         "name": "Client Stack"
+      },
+      {
+         "keywords": [
+            "express",
+            "restify"
+         ],
+         "level": "Expert",
+         "name": "Nodejs"
+      },
+      {
+         "keywords": [
+            "mongoose",
+            "monitoring",
+            "troubleshooting"
+         ],
+         "level": "Expert",
+         "name": "MongoDB"
+      },
+      {
+         "keywords": [
+            "c#",
+            "Razor",
+            "SSRS",
+            "asp.net MVC",
+            "DI-ninject"
+         ],
+         "level": "Intermediate",
+         "name": ".NET"
+      },
+      {
+         "keywords": [
+            "Google Closure",
+            "HTML5 gaming",
+            "HTML5",
+            "InnoDB tuning",
+            "T-SQL",
+            "yii",
+            "yii2",
+            "lamp"
+         ],
+         "level": "average",
+         "name": "Random"
+      }
+   ],
+   "volunteer": [ ],
+   "work": [
+      {
+         "company": "Independent Contractor",
+         "highlights": [ ],
+         "isCurrentRole": true,
+         "location": "Europe",
+         "position": "Seasoned Software Engineer,  Project Manager",
+         "start": {
+            "month": 8,
+            "year": 2014
+         },
+         "startDate": "2014-08-01",
+         "summary": "Cloud providers: Aws, Azure, OpenStack, Digital ocean, Redhat Openshift\n\nDevOps: Ansible, OpsCode Chef (migration to ansible :))\n\nPure JS stack: Javascript, Node.JS, MongoDB\n\nClient stack: plain javascript , AngularJS(1), HTML5 api's.\n\nServer-side stack: Windows (ASP.NET MVC), Python, LAMP, Go",
+         "website": "https://www.voronenko.info"
+      },
+      {
+         "company": "Softasap",
+         "highlights": [ ],
+         "isCurrentRole": true,
+         "location": "Europe",
+         "position": "Founder",
+         "start": {
+            "month": 7,
+            "year": 2014
+         },
+         "startDate": "2014-07-01",
+         "summary": "* Custom IT infrastructure: Implementation of the continuous integration processes basing on specific client needs\n* Consulting: providing help with feasibility scans as well as suggest ideas on resolving issues. .\n* Opensource proven devops recipes: We have opensourced list of proven recipes that streamline small IT business operations. This includes, but not limited to, workplaces configuration , securing remote servers, build server setup.",
+         "website": "https://www.softasap.com/"
+      },
+      {
+         "company": "Eleks",
+         "end": {
+            "month": 8,
+            "year": 2014
+         },
+         "endDate": "2014-08-01",
+         "highlights": [ ],
+         "isCurrentRole": false,
+         "location": "Lviv, Ukraine",
+         "position": "Project manager",
+         "start": {
+            "month": 6,
+            "year": 2012
+         },
+         "startDate": "2012-06-01",
+         "summary": "Set of projects related to Web, HTML 5, high load, cloud deployment environment.",
+         "website": ""
+      },
+      {
+         "company": "Eleks",
+         "end": {
+            "month": 5,
+            "year": 2012
+         },
+         "endDate": "2012-05-01",
+         "highlights": [ ],
+         "isCurrentRole": false,
+         "location": "Lviv, Ukraine",
+         "position": "Team leader",
+         "start": {
+            "month": 5,
+            "year": 2006
+         },
+         "startDate": "2006-05-01",
+         "summary": "I was focused on planning and executing of\nset of small/medium size projects done by\nWeb Solutions department.\nLot of my efforts were spent on work coordination\nof the software developers team, help in building\nrealistic work breakdown structure and estimates.\n\nProject architecture selection, evaluating alternatives.",
+         "website": ""
+      },
+      {
+         "company": "Eleks",
+         "end": {
+            "month": 5,
+            "year": 2006
+         },
+         "endDate": "2006-05-01",
+         "highlights": [ ],
+         "isCurrentRole": false,
+         "location": "Lviv, Ukraine",
+         "position": "Software developer, project manager",
+         "start": {
+            "month": 4,
+            "year": 1999
+         },
+         "startDate": "1999-04-01",
+         "summary": "Number of different projects implemented in set of technologies. More details on request",
+         "website": ""
+      },
+      {
+         "company": "Eleks",
+         "end": {
+            "month": 4,
+            "year": 1999
+         },
+         "endDate": "1999-04-01",
+         "highlights": [ ],
+         "isCurrentRole": false,
+         "location": "Lviv, Ukraine",
+         "position": "Junior Software Developer",
+         "start": {
+            "month": 7,
+            "year": 1997
+         },
+         "startDate": "1997-07-01",
+         "summary": "I was involved as a junior developer into number of commercial projects developed at that moment.\nBusiness area: healthcare.",
+         "website": ""
+      }
+   ]
+}
