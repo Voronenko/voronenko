@@ -1,0 +1,21 @@
+                        <div class="detail" id="references">
+                            <div class="icon"><i class="fs-lg icon-thumbs-up"></i><span
+                                    class="mobile-title">References</span>
+                            </div>
+                            <div class="info">
+                                <h4 class="title text-uppercase">References</h4>
+                                <div class="content">
+                                    <ul class="list-unstyled clear-margin">
+{% for reference in resume.references %}
+                                        <li class="card card-nested">{{ reference.name }}
+                                            <blockquote class="quote">
+                                                <div class="mop-wrapper">
+                                                    <p>{{ reference.reference }}</p>
+                                                </div>
+                                            </blockquote>
+                                        </li>
+{% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e966123128fca74ba1c42b70337b6fbb23b56566c066749ca125892cd6ec54a6"
+            "sha256": "bbe9f51e4f061881521d84bedb59b96df24cd47c0ac0c44b6127ead93c52f43e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -296,6 +296,14 @@
             ],
             "index": "pypi",
             "version": "==1.0.0"
+        },
+        "mkdocs-simple-hooks": {
+            "hashes": [
+                "sha256:be04116586a71fa629df4acbf02427c92b83229ca1a6b93ad8716ccdf248e4f3",
+                "sha256:dc53c03e5ac0b0c0b0c486a8e4ed6ed832c01b069a393f82927be5af42d3e89d"
+            ],
+            "index": "pypi",
+            "version": "==0.1.1"
         },
         "mknotebooks": {
             "hashes": [

@@ -1,0 +1,22 @@
+                        <div class="detail" id="skills">
+                            <div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span>
+                            </div>
+                            <div class="info">
+                                <h4 class="title text-uppercase">Skills</h4>
+                                <div class="content">
+                                    <ul class="list-unstyled clear-margin">
+{% for skillset in resume.skills %}
+                                        <li class="card card-nested card-skills">
+                                            <div class="skill-level" data-toggle="tooltip" title="{{ skillset.level }}"
+                                                data-placement="left">
+                                                <div class="skill-progress {{ skillset.level | lower }}"></div>
+                                            </div>
+                                            <div class="skill-info"><strong>{{ skillset.name }}</strong>
+                                                <div class="space-top labels">{% for keyword in skillset.keywords %}<span class="label label-keyword">{{ keyword }}</span>{% endfor %}</div>
+                                            </div>
+                                        </li>
+{% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>

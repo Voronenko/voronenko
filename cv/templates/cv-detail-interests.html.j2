@@ -1,0 +1,17 @@
+                        <div class="detail" id="interests">
+                            <div class="icon"><i class="fs-lg icon-heart"></i><span
+                                    class="mobile-title">Interests</span></div>
+                            <div class="info">
+                                <h4 class="title text-uppercase">Interests</h4>
+                                <div class="content">
+                                    <ul class="list-unstyled clear-margin">
+{% for interest in resume.interests %}
+                                        <li class="card card-nested">
+                                            <p><strong>{{interest.name}}</strong></p>
+                                            <div class="space-top labels">{% for keyword in interest.keywords %}<span class="label label-keyword">{{ keyword }}</span>{% endfor %}</div>
+                                        </li>
+{% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>

@@ -36,6 +36,9 @@ plugins:
       pagination: "Page % of %"
       display-more-articles: true
       display-article-date: true
+  - mkdocs-simple-hooks:
+#      hooks:
+#        - hook-name: "your.module:hook_function"
 # Configuration
 theme:
   name: 'material'
