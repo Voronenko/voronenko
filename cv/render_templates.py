@@ -7,10 +7,12 @@ templateEnv = jinja2.Environment(loader=templateLoader)
 
 TEMPLATES = [
      "cv-detail-about.html",
-     "cv-detail-skills.html",
+     "cv-detail-awards.html",
+     "cv-detail-education.html",
      "cv-detail-interests.html",
+     "cv-detail-publications.html",
      "cv-detail-references.html",
-     "cv-detail-education.html"
+     "cv-detail-skills.html"
      ]
 
 resume_obj = None
@@ -22,5 +24,5 @@ for template in TEMPLATES:
     template_instance = templateEnv.get_template("{}.j2".format(template))
     template_rendered = template_instance.render(resume=resume_obj)
     with open("./templates/{}".format(template), "wb") as f:
-      f.write(template_rendered)
+      f.write(template_rendered.encode('utf8'))
 

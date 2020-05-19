@@ -1,0 +1,25 @@
+                        <div class="detail" id="publications">
+                            <div class="icon"><i class="fs-lg icon-newspaper"></i><span
+                                    class="mobile-title">Publications</span>
+                            </div>
+                            <div class="info">
+                                <h4 class="title text-uppercase">Publications</h4>
+                                <div class="content">
+                                    <ul class="list-unstyled clear-margin">
+{% for pub in resume.publications %}
+                                        <li class="card card-nested">
+                                            <div class="content">
+                                                <p class="clear-margin"><strong><a
+                                                            href="{{ pub.website }}"
+                                                            target="_blank">{{ pub.name }}</strong></p>
+                                                <p class="text-muted"><small>Published on: {{ pub.releaseDate }}</small></p>
+                                                <div class="mop-wrapper">
+                                                    <p>{{ pub.summary }}</p>
+                                                </div>
+                                            </div>
+                                        </li>
+{% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
