@@ -14,12 +14,13 @@ plugins:
         - diagrams/**/*.py
       regex:
         - '.*\.(tmp|bin|tar|template)$'
+        - '\.ipynb_checkpoints'
   - macros
   - mknotebooks:
       execute: false
       preamble: "preamble.py"
       write_markdown: true
-  - autolinks 
+  - autolinks
   - redirects:
 #  - toc-sidebar
 #      redirect_maps:
@@ -65,9 +66,8 @@ extra:
       link: https://www.linkedin.com/in/voronenkovyacheslav/
 
 markdown_extensions:
-  - toc:
-      permalink: True
-  - nl2br
+  - admonition
+  - fontawesome_markdown
   - fenced_code
   - plantuml_markdown:
   - codehilite
@@ -79,6 +79,7 @@ markdown_extensions:
   - markdown.extensions.meta
   - markdown.extensions.toc:
       permalink: true
+  - nl2br
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -94,4 +95,6 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-  - fontawesome_markdown
+  - toc:
+      permalink: true
+

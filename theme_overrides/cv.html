@@ -1,12 +1,22 @@
+{% import "partials/language.html" as lang with context %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang.t('language') }}>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Vyacheslav</title>
-    {% include "partials/cv-head-style.html" %}
-    {% include "partials/cv-head-scripts.html" %}
+    {% block htmltitle %}
+        {% if page and page.meta and page.meta.title %}
+        <title>{{ page.meta.title }}</title>
+        {% elif page and page.title and not page.is_homepage %}
+        <title>{{ page.title | striptags }}</title>
+        {% else %}
+        <title>{{ config.site_name }}</title>
+        {% endif %}
+    {% endblock %}
+
+    {% include "partials/cv-head-style.html" with context %}
+    {% include "partials/cv-head-scripts.html" with context %}
 </head>
 
 <body itemscope="itemscope" itemtype="http://schema.org/Person">
@@ -26,21 +36,25 @@
                 </ul>
             </nav>
             <section class="col-md-3 card-wrapper profile-card-wrapper affix">
-            {% include "partials/cv-section-profile-card.html" %}
+            {% block cv_profile_card %}
+              {% include "partials/cv-section-profile-card.html" %}
+            {% endblock %}
             </section>
             <section class="col-md-9 card-wrapper pull-right">
                 <div class="card background-card">
                     <h4 class="text-uppercase">Background</h4>
                     <hr />
                     <div class="background-details">
-                        {% include "partials/cv-detail-about.html" %}
-                        {% include "partials/cv-detail-work-experience.html" %}
-                        {% include "partials/cv-detail-skills.html" %}
-                        {% include "partials/cv-detail-education.html" %}
-                        {% include "partials/cv-detail-awards.html" %}
-                        {% include "partials/cv-detail-publications.html" %}
-                        {% include "partials/cv-detail-interests.html" %}
-                        {% include "partials/cv-detail-references.html" %}
+                    {% block cv_background_details %}
+                        {% include "partials/cv-detail-about.html" with context %}
+                        {% include "partials/cv-detail-work-experience.html" with context %}
+                        {% include "partials/cv-detail-skills.html" with context %}
+                        {% include "partials/cv-detail-education.html" with context %}
+                        {% include "partials/cv-detail-awards.html" with context %}
+                        {% include "partials/cv-detail-publications.html" with context %}
+                        {% include "partials/cv-detail-interests.html" with context %}
+                        {% include "partials/cv-detail-references.html" with context %}
+                    {% endblock %}
                     </div>
                 </div>
             </section>
