@@ -1,0 +1,23 @@
+                        <div class="detail" id="education">
+                            <div class="icon"><i class="fs-lg icon-graduation-cap"></i><span
+                                    class="mobile-title">Education</span>
+                            </div>
+                            <div class="info">
+                                <h4 class="title text-uppercase">Education</h4>
+                                <div class="content">
+                                    <ul class="list-unstyled clear-margin">
+{% for edu in resume.education %}
+                                        <li class="card card-nested">
+                                            <div class="content">
+                                                <p class="clear-margin relative"><strong>{{ edu.area }}, {{ edu.studyType }}</strong>
+                                                {{ edu.institution }}</p>
+                                                <p class="text-muted clear-margin"><small>{{ edu.start.month | month3 }}, {{ edu.start.year }} - {{ edu.end.month | month3 }}, {{ edu.end.year }}</small>
+                                                </p>
+                                                <i></i>
+                                            </div>
+                                        </li>
+{% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>

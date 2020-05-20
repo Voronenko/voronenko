@@ -1,0 +1,20 @@
+                        <div class="detail" id="awards">
+                            <div class="icon"><i class="fs-lg icon-trophy"></i><span class="mobile-title">Awards</span>
+                            </div>
+                            <div class="info">
+                                <h4 class="title text-uppercase">Awards</h4>
+                                <div class="content">
+                                    <ul class="list-unstyled clear-margin">
+{% for award in resume.awards %}
+                                        <li class="card card-nested">
+                                            <div class="content">
+                                                <p class="clear-margin" itemprop="award"><strong>{{ award.title }}</strong>{{ award.awarder }}</p>
+                                                <p class="text-muted"><small>Awarded on: {{ award.fullDate.month | month3 }}, {{ award.fullDate.year }}</small></p>
+                                                <div class="mop-wrapper">{{ award.summary | frommarkdown }}</div>
+                                            </div>
+                                        </li>
+{% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
