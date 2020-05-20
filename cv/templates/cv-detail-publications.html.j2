@@ -11,10 +11,10 @@
                                             <div class="content">
                                                 <p class="clear-margin"><strong><a
                                                             href="{{ pub.website }}"
-                                                            target="_blank">{{ pub.name }}</strong></p>
-                                                <p class="text-muted"><small>Published on: {{ pub.releaseDate }}</small></p>
+                                                            target="_blank">{{ pub.name }}</a></strong></p>
+                                                <p class="text-muted"><small>Published on: {{ pub.fullReleaseDate.month | month3 }} {{ pub.fullReleaseDate.day }}, {{ pub.fullReleaseDate.year }}</small></p>
                                                 <div class="mop-wrapper">
-                                                    <p>{{ pub.summary }}</p>
+                                                    {{ pub.summary | frommarkdown }}
                                                 </div>
                                             </div>
                                         </li>

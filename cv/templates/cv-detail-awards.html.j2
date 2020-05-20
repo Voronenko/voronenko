@@ -9,8 +9,8 @@
                                         <li class="card card-nested">
                                             <div class="content">
                                                 <p class="clear-margin" itemprop="award"><strong>{{ award.title }}</strong>{{ award.awarder }}</p>
-                                                <p class="text-muted"><small>Awarded on: {{ award.date }}</small></p>
-                                                <div class="mop-wrapper"></div>
+                                                <p class="text-muted"><small>Awarded on: {{ award.fullDate.month | month3 }}, {{ award.fullDate.year }}</small></p>
+                                                <div class="mop-wrapper">{{ award.summary | frommarkdown }}</div>
                                             </div>
                                         </li>
 {% endfor %}}

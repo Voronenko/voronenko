@@ -5,7 +5,7 @@
                                 <h4 class="title text-uppercase">About</h4>
                                 <div class="card card-nested">
                                     <div class="content mop-wrapper" itemprop="description">
-                                        <p>{{ resume.basics.summary.replace("\n","</p><p>") }}</p>
+                                        {{ resume.basics.summary | frommarkdown }}
                                     </div>
                                 </div>
                             </div>
