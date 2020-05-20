@@ -304,7 +304,7 @@
   "publications": [
     {
       "name": "Unobtrusive local development with kubernetes, k3s, traefik2",
-      "summary": "Running local kubernetes cluster with k3s, traefik2 and letsencrypt. This is followup to my local docker development environment described here https://github.com/Voronenko/traefik2-compose-template. In addition to classic dockerized projects, I also have number of…",
+      "summary": "Running local kubernetes cluster with k3s, traefik2 and letsencrypt. This is followup to my local docker development environment described here https://github.com/Voronenko/traefik2-compose-template. In addition to classic dockerized projects, I also have number of...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/unobtrusive-local-development-with-kubernetes-k3s-traefik2-d203d4167369",
       "releaseDate": "2020-04-01",
@@ -316,7 +316,7 @@
     },
     {
       "name": "Unobtrusive local development with traefik2, docker and letsencrypt",
-      "summary": "When it comes to developing sites that use subdomains, this can be a challenging or boring task to set up in development because localhost isn’t a fully qualified domain name. You can’t just goto…",
+      "summary": "When it comes to developing sites that use subdomains, this can be a challenging or boring task to set up in development because localhost isn’t a fully qualified domain name. You can’t just goto...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/unobtrusive-local-development-with-traefik2-docker-and-letsencrypt-2d1944dd851f",
       "releaseDate": "2020-04-01",
@@ -328,7 +328,7 @@
     },
     {
       "name": "Microservices: integrating kong api gateway with Auth0 authentication provider",
-      "summary": "I used to work with several startups recently. Authentication is present in any product you do. Authentication is not simple. Not hard in the development sense well-defined standards such as OAuth2…",
+      "summary": "I used to work with several startups recently. Authentication is present in any product you do. Authentication is not simple. Not hard in the development sense well-defined standards such as OAuth2...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/microservices-integrating-kong-api-gateway-with-auth0-authentication-provider-6b6a9f27a69a",
       "releaseDate": "2020-03-01",
@@ -340,7 +340,7 @@
     },
     {
       "name": "Your personal knowledge base with JupyterLab",
-      "summary": "Long long time ago I was using Evernote as a my personal knowledge base. I was collecting snippets of knowledge from my projects I was working on. One of the constant challenges was ensuring that I…",
+      "summary": "Long long time ago I was using Evernote as a my personal knowledge base. I was collecting snippets of knowledge from my projects I was working on. One of the constant challenges was ensuring that I...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/your-personal-knowledge-base-with-jupyterlab-cc22147ad56e",
       "releaseDate": "2019-06-01",
@@ -364,7 +364,7 @@
     },
     {
       "name": "Sharing sensitive variables between ansible and terraform",
-      "summary": "Simple proof of concept, how to share some sensitive variables between terraform and ansible in a way that allows committing into git, while also being reasonably easy to decrypt, and be used…",
+      "summary": "Simple proof of concept, how to share some sensitive variables between terraform and ansible in a way that allows committing into git, while also being reasonably easy to decrypt, and be used...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/sharing-sensitive-variables-between-ansible-and-terraform-9d3316a88b93",
       "releaseDate": "2019-04-01",
@@ -376,7 +376,7 @@
     },
     {
       "name": "Creating parametrized PowerShell one-liners",
-      "summary": "Coming from unix world, I really enjoy so-called one-liners — easy to remember commands that do some useful bootstrapping. That approach works pretty well on linux, thus when I have windows related…",
+      "summary": "Coming from unix world, I really enjoy so-called one-liners — easy to remember commands that do some useful bootstrapping. That approach works pretty well on linux, thus when I have windows related...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/creating-parametrized-powershell-one-liners-1b3a5a26579b",
       "releaseDate": "2019-02-01",
@@ -388,7 +388,7 @@
     },
     {
       "name": "Forwarding mi gateway multicasts from remote locations",
-      "summary": "Actually, this article is the memory for myself. Article describes notes on setting up network infrastructure with remote xiaomi mi gateways, so the openhab will still receive multicasts with sensors…",
+      "summary": "Actually, this article is the memory for myself. Article describes notes on setting up network infrastructure with remote xiaomi mi gateways, so the openhab will still receive multicasts with sensors...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/forwarding-mi-gateway-multicasts-from-remote-locations-cb8f01043aab",
       "releaseDate": "2019-01-01",
@@ -411,7 +411,7 @@
       }
     },
     {
-      "name": "Kubernetes on docker for Windows and few crocodiles…",
+      "name": "Kubernetes on docker for Windows and few crocodiles...",
       "summary": "POC on using kubernetes bundled with docker for windows as a quick alternative to minikube or minishift. We discuss how to expose cluster outside of windows localhost as well as how to deploy.",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/kubernetes-on-docker-for-windows-and-few-crocodiles-48944a5f9d5",
@@ -436,7 +436,7 @@
     },
     {
       "name": "Generating letsencrypt wildcard certificate with certbot",
-      "summary": "As you might know, letsencrypt ssl certificates officially reached production state, see https://community.letsencrypt.org/t/acme-v2-production-environment-wildcards/55578 . It is time to give it a…",
+      "summary": "As you might know, letsencrypt ssl certificates officially reached production state, see https://community.letsencrypt.org/t/acme-v2-production-environment-wildcards/55578 . It is time to give it a...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/generating-letsencrypt-wildcard-certificate-with-certbot-31890f23da00",
       "releaseDate": "2018-03-01",
@@ -472,7 +472,7 @@
     },
     {
       "name": "Approach for implementing git-flow releasing model",
-      "summary": "Perhaps most of developers are familiar with git-flow model, that makes release process controlled. In this article I would demonstrate one of approaches to introduce git-flow releasing in your…",
+      "summary": "Perhaps most of developers are familiar with git-flow model, that makes release process controlled. In this article I would demonstrate one of approaches to introduce git-flow releasing in your...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/approach-for-implementing-git-flow-releasing-model-8d37ea4764c",
       "releaseDate": "2017-01-01",
@@ -484,7 +484,7 @@
     },
     {
       "name": "Automating SSL encryption for your servers with LetsEncrypt and Ansible",
-      "summary": "Lets Encrypt (http://www.letsencrypt.org/‎) — probably most known authority supplying free grean seal certificates. In this article I will share with you, how I make use of letsencrypt as a part of…",
+      "summary": "Lets Encrypt (http://www.letsencrypt.org/‎) — probably most known authority supplying free grean seal certificates. In this article I will share with you, how I make use of letsencrypt as a part of...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/automating-ssl-encryption-for-your-servers-with-letsencrypt-and-ansible-e211c726f1c8",
       "releaseDate": "2016-12-01",
@@ -496,7 +496,7 @@
     },
     {
       "name": "Master jump box to access your network resources",
-      "summary": "A jump server or jump host or jumpbox is a (special-purpose) computer on a network typically used to access devices in a separate security zone. The most common example is managing a host in a DMZ…",
+      "summary": "A jump server or jump host or jumpbox is a (special-purpose) computer on a network typically used to access devices in a separate security zone. The most common example is managing a host in a DMZ...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/jump-box-a917fce73e86",
       "releaseDate": "2016-12-01",
@@ -508,7 +508,7 @@
     },
     {
       "name": "Quickly add your github keys as authorized to your virtual server",
-      "summary": "As a software developer, I constantly work with a bunch of virtual environments used for testing. The first step I do — is switch from password ssh authorization to authorization by public key. AWS…",
+      "summary": "As a software developer, I constantly work with a bunch of virtual environments used for testing. The first step I do — is switch from password ssh authorization to authorization by public key. AWS...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/quickly-add-your-github-keys-as-authorized-to-your-virtual-server-e8581cf06b41",
       "releaseDate": "2016-11-01",
@@ -520,7 +520,7 @@
     },
     {
       "name": "Make Your Development Environment Ready While You Drink a Coffee",
-      "summary": "As a contractor — software developer, I remaster my work environment often, depending on project requirements. Depending on NDA, sometimes I work remotely on provided boxes. It is important for me to…",
+      "summary": "As a contractor — software developer, I remaster my work environment often, depending on project requirements. Depending on NDA, sometimes I work remotely on provided boxes. It is important for me to...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/make-your-development-environment-ready-while-you-drink-a-coffee-dc26e231ee8d",
       "releaseDate": "2016-10-01",
@@ -532,7 +532,7 @@
     },
     {
       "name": "Storing Tree like Hierarchy Structures With MongoDB, Part 2",
-      "summary": "In real life almost any project deals with the tree structures. Different kinds of taxonomies, site structures etc require modelling of hierarchy relations. In this article I will illustrate using…",
+      "summary": "In real life almost any project deals with the tree structures. Different kinds of taxonomies, site structures etc require modelling of hierarchy relations. In this article I will illustrate using...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/storing-tree-like-hierarchy-structures-with-mongodb-part-2-bf35ad1f25ef",
       "releaseDate": "2016-10-01",
@@ -544,7 +544,7 @@
     },
     {
       "name": "Storing Tree like Hierarchy Structures With MongoDB",
-      "summary": "In a real life almost any project deals with the tree structures. Different kinds of taxonomies, site structures etc require modeling of hierarchy relations. In this article I will illustrate using…",
+      "summary": "In a real life almost any project deals with the tree structures. Different kinds of taxonomies, site structures etc require modeling of hierarchy relations. In this article I will illustrate using...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/storing-tree-like-hierarchy-structures-with-mongodb-4f97b7bee472",
       "releaseDate": "2016-10-01",
@@ -556,7 +556,7 @@
     },
     {
       "name": "Deploying ruby application with ansible",
-      "summary": "Nowadays, you can get your own dedicated server up and running in a seconds. Once you get it up, do you really spent several hours to configure it for your application needs ? Do you really want to…",
+      "summary": "Nowadays, you can get your own dedicated server up and running in a seconds. Once you get it up, do you really spent several hours to configure it for your application needs ? Do you really want to...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/deploying-ruby-application-with-ansible-82a1ed8b97be",
       "releaseDate": "2016-10-01",
@@ -568,7 +568,7 @@
     },
     {
       "name": "Automating network mastering scenarios for Amazon VPC",
-      "summary": "For a long time Amazon Web Services is one of the most often used platforms to deploy and run new projects. For more complex project you usually start with mastering your network infrastructure…",
+      "summary": "For a long time Amazon Web Services is one of the most often used platforms to deploy and run new projects. For more complex project you usually start with mastering your network infrastructure...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/automating-network-mastering-scenarios-for-amazon-vpc-db3133a5f33f",
       "releaseDate": "2016-02-01",
@@ -580,7 +580,7 @@
     },
     {
       "name": "Google two step authentication — in debug",
-      "summary": "Have you have enabled your Google account for two step authentication? If not — I strongly recommend to do so. Do you know the nature of the code generated by Google Authenticator? There are no myths…",
+      "summary": "Have you have enabled your Google account for two step authentication? If not — I strongly recommend to do so. Do you know the nature of the code generated by Google Authenticator? There are no myths...",
       "publisher": "",
       "website": "https://medium.com/@V_Voronenko/google-two-step-authentication-in-debug-1621a4dc4013",
       "releaseDate": "2012-12-01",
