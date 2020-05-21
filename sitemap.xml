@@ -1,175 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/debug/admonition/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/debug/codehilite/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/debug/debug/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/debug/footnotes/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/debug/metadata/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/debug/permalinks/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/debug/pymdown/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/acme_sh/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/circleci/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/exsi/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/golang/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/ignite/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/jetbrains/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/jsonnet/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/letsencrypt_acme/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/maven/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/openshift/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/openvpn/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/postgres/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/privacy-straisend/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/scripts_shell/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/ssh_keys/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/ubuntu/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/aws/aws/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/aws/security-tools/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/azure/azure_intro/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/dotnet/environment_vars_in_apppools/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/frontend/sass/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/github/actions/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/github/official/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/kong/auth0/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/kubernetes/StaticIP/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/kubernetes/basic_commands_2_2/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/kubernetes/helm/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/kubernetes/letsencrypt/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/kubernetes/pods/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/mikrotik/gns3/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/mikrotik/openvpn/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/mikrotik/routing-list/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/pm-templates/code-reviews/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/security-tools/owasp_zap/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-05-20</lastmod>
+     <loc>https://voronenko.info/unsorted-notes/terraform/Terraform-companion-blast-radius/</loc>
+     <lastmod>2020-05-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
