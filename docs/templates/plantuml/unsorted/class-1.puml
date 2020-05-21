@@ -1,0 +1,22 @@
+@startuml
+note as n
+	ActiveRecord
+	("save yourself")
+end note
+
+class DAO{
+	{static} Entity find(id)
+	{static} List<Entity> findBy(criteria for select)
+	update(Entity)
+	save(Entity)
+	delete(Entity)
+	{static} Finder
+}
+
+Ballot --|> DAO
+
+note left of Ballot
+	Ballot ballot = new Ballot( ... );
+	ballot.save();
+end note
+@enduml

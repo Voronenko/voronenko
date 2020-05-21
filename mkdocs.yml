@@ -1,4 +1,5 @@
 site_name: Personal portal
+site_url: https://voronenko.info
 
 plugins:
   - build_plantuml:
