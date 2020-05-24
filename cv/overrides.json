@@ -176,7 +176,36 @@
     "position": "CEO WIZEWERX LTD",
     "reference": "We have an *awesome*, fast, startup wallet friendly  docker swarm cluster for Amazemeet, DeckSender and all the other playthings that I'm involved in. It's secure, resilient and scaleable and costs less than $100 a month to run 8 servers across 5 locations. To replicate on AWS would cost  x5. All possible because Vyacheslav Voronenko helped me build it with his huge depth of experience in dev and ops and his passion for the entire space. If you are building anything that needs servers, connect with him",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:6656154610920681473/"
+  },
+  {
+    "name": "Hayden T",
+    "position": "Person seeking for short time consultation",
+    "reference": "This guy actually listened to what I was asking rather than just say \"I can fix your problem for $x\". He talked through my problem so i know he understood the situation and what i was looking for. And then worked out my problem in very short time without the need to rewrite my database structure, when it was just a query problem....",
+    "url": "https://www.voronenko.info/short-time-consulting/"
+  },
+  {
+    "name": "Guy J",
+    "position": "Person seeking for short time consultation",
+    "reference": "excellent. Helped me solve a problem that had me stuck for an entire day.",
+    "url": "https://www.voronenko.info/short-time-consulting/"
+  },
+  {
+    "name": "Nobuyuki F",
+    "position": "Person seeking for short time consultation",
+    "reference": "Excellent programmer and advisor!",
+    "url": "https://www.voronenko.info/short-time-consulting/"
+  },
+  {
+    "name": "Mathew A",
+    "position": "Person seeking for short time consultation",
+    "reference": "Precise, clear instructions and had some great resources to share, thank you",
+    "url": "https://www.voronenko.info/short-time-consulting/"
+  },
+  {
+    "name": "Nicholas B",
+    "position": "Person seeking for short time consultation",
+    "reference": "Amazing dude! Very helpful! Solved another problem of mine! Awesome as always!",
+    "url": "https://www.voronenko.info/short-time-consulting/"
   }
-
  ]
 }
