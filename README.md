@@ -1,12 +1,17 @@
-<p align="center"><a href="https://www.voronenko.info">CV Website</a> • <a href="https://www.reddit.com/user/voronenko/">Reddit</a> • <a href="https://twitter.com/slavko">Twitter</a> • <a href="https://www.linkedin.com/in/voronenkovyacheslav/">LinkedIn</a> • <a href="http://www.softasap.com/contacts.html">Contact</a></p>
-
 # Profile Highlights
 
-## Table of Contents
+## About me
 
-- <img src="https://img.shields.io/badge/ansible%20-%231A1918.svg?&style=for-the-badge&logo=ansible&logoColor=white"/>[:cloud: Ansible Related Projects](https://github.com/softasap)
-- [:pencil: Blog Posts](https://medium.com/@V_Voronenko)
+I provide Ops, software development services. On a remote, solo or as a part of remote distributed teams. Open for opportunities as an independent consultant. I do also provide short term consulting.
 
+In s/d since beginning of the century ( :) ), approximately 7 times x 3 years technology periods, during which I was working with needed at that moment set of technologies. Roles covered were (depending on project) - software developer, lead developer, project architect, project manager.
+
+On a current round I am collaborating mostly with a startups as a hired gun.
+
+|   |   |
+|---|---|
+| <img src="https://img.shields.io/badge/ansible%20-%231A1918.svg?&style=for-the-badge&logo=ansible&logoColor=white"/>  |  I am supporting set of ansible playbooks used by me in a routine work, check at [ ansible related projects](https://github.com/softasap  |
+| [:pencil: blogging](https://medium.com/@V_Voronenko)  | I do some rare blogging at https://medium.com/@V_Voronenko |
 
 
 #### How to reach me?
@@ -17,11 +22,14 @@
 
 #### Tech Stack I do usually work with
 <!-- https://github.com/Ileriayo/markdown-badges -->
-<img src="https://img.shields.io/badge/AWS%20-%23FF9900.svg?&style=for-the-badge&logo=amazon-aws&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Google%20Cloud%20-%234285F4.svg?&style=for-the-badge&logo=google-cloud&logoColor=white"/>&nbsp;<img
+<img src="https://img.shields.io/badge/AWS%20-%23FF9900.svg?&style=for-the-badge&logo=amazon-aws&logoColor=white"/>&nbsp;<img 
 src="https://img.shields.io/badge/Openstack-%23f01742.svg?&style=for-the-badge&logo=openstack&logoColor=white"/>&nbsp;<img
 src="https://img.shields.io/badge/DigitalOcean-%230167ff.svg?&style=for-the-badge&logo=digitalOcean&logoColor=white"/>&nbsp;<img
+src="https://img.shields.io/badge/Google%20Cloud%20-%234285F4.svg?&style=for-the-badge&logo=google-cloud&logoColor=white"/>&nbsp;<img
 src="https://img.shields.io/badge/docker%20-%230db7ed.svg?&style=for-the-badge&logo=docker&logoColor=white"/>&nbsp;<img
 src="https://img.shields.io/badge/kubernetes%20-%23326ce5.svg?&style=for-the-badge&logo=kubernetes&logoColor=white"/>
+
+Note: google cloud platfrom is chosen by customers more rarely than aws one.
 
 #### Languages I am familiar with
 
@@ -40,3 +48,6 @@ src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&l
 src="https://img.shields.io/badge/jenkins%20-%232C5263.svg?&style=for-the-badge&logo=jenkins&logoColor=white"/>&nbsp;<img
 src="https://img.shields.io/badge/CIRCLECI%20-%23161616.svg?&style=for-the-badge&logo=circleci&logoColor=white"/>&nbsp;<img
 src="https://img.shields.io/badge/bitbucket%20-%230047B3.svg?&style=for-the-badge&logo=bitbucket&logoColor=white"/>
+
+
+<p align="center"><a href="https://www.voronenko.info">CV Website</a> • <a href="https://www.reddit.com/user/voronenko/">Reddit</a> • <a href="https://twitter.com/slavko">Twitter</a> • <a href="https://www.linkedin.com/in/voronenkovyacheslav/">LinkedIn</a> • <a href="http://www.softasap.com/contacts.html">Contact</a></p>
