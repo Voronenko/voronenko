@@ -11,7 +11,7 @@ On a current round I am collaborating mostly with a startups as a hired gun.
 |   |   |
 |---|---|
 | <img src="https://img.shields.io/badge/ansible%20-%231A1918.svg?&style=for-the-badge&logo=ansible&logoColor=white"/>  |  I am supporting set of ansible playbooks used by me in a routine work, check at [ ansible related projects](https://github.com/softasap  |
-| [:pencil: blogging](https://medium.com/@V_Voronenko)  | I do some rare blogging at https://medium.com/@V_Voronenko |
+| :pencil: blogging | I do some rare blogging at https://medium.com/@V_Voronenko |
 
 
 #### How to reach me?
