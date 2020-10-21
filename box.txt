@@ -19,3 +19,40 @@ Hyperv checkpoint fix
 
 apt-get install --install-recommends linux-virtual-lts-xenial
 apt-get install --install-recommends linux-tools-virtual-lts-xenial linux-cloud-tools-virtual-lts-xenial 
+
+
+Initialize winfiles
+
+```ps1
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+Set-ExecutionPolicy Bypass -Scope Process -Force;
+iex ((New-Object System.Net.WebClient).DownloadString('https://bit.ly/winfiles'))
+```
+
+
+Ansible remote provisioning
+
+```ps1
+
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://bit.ly/ansible_remoting'))
+
+```
+
+or
+
+```ps1
+
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Voronenko/winfiles/master/setup/ConfigureRemotingForAnsible.ps1'))
+
+```
+
+out of memory for provisioning?
+
+```ps1
+# 2048 4096 8192 this is the max mem in MB
+Set-Item -Path WSMan:\localhost\Shell\MaxMemoryPerShellMB -Value 2048
+Restart-Service -Name WinRM
+
+```
