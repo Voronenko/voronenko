@@ -51,5 +51,9 @@ src="https://img.shields.io/badge/jenkins%20-%232C5263.svg?&style=for-the-badge&
 src="https://img.shields.io/badge/CIRCLECI%20-%23161616.svg?&style=for-the-badge&logo=circleci&logoColor=white"/>&nbsp;<img
 src="https://img.shields.io/badge/bitbucket%20-%230047B3.svg?&style=for-the-badge&logo=bitbucket&logoColor=white"/>
 
+usually using, but not limited to
+
+<img src="https://img.shields.io/badge/terraform%20-%235835CC.svg?&style=for-the-badge&logo=terraform&logoColor=white"/>&nbsp;<img
+src="https://img.shields.io/badge/ansible%20-%231A1918.svg?&style=for-the-badge&logo=ansible&logoColor=white"/>
 
 <p align="center"><a href="https://www.voronenko.info">CV Website</a> • <a href="https://www.reddit.com/user/voronenko/">Reddit</a> • <a href="https://twitter.com/slavko">Twitter</a> • <a href="https://www.linkedin.com/in/voronenkovyacheslav/">LinkedIn</a> • <a href="http://www.softasap.com/contacts.html">Contact</a></p>
