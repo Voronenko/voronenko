@@ -42,6 +42,8 @@ src="https://img.shields.io/badge/lua-%232C2D72.svg?&style=for-the-badge&logo=lu
 src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/>&nbsp;<img
 src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
 
+Note: Lua - in scope of kong and nginx only
+
 #### I am helping customers with ops solutions for most often used cd/ci systems
 <img src="https://img.shields.io/badge/gitlab%20-%23181717.svg?&style=for-the-badge&logo=gitlab&logoColor=white"/>&nbsp;<img
 src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>&nbsp;<img
