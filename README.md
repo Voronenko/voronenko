@@ -10,7 +10,7 @@ On a current round I am collaborating mostly with a startups as a hired gun.
 
 |   |   |
 |---|---|
-| <img src="https://img.shields.io/badge/ansible%20-%231A1918.svg?&style=for-the-badge&logo=ansible&logoColor=white"/>  |  I am supporting set of ansible playbooks used by me in a routine work, check at [ ansible related projects](https://github.com/softasap  |
+| <img src="https://img.shields.io/badge/ansible%20-%231A1918.svg?&style=for-the-badge&logo=ansible&logoColor=white"/>  |  I am supporting set of ansible playbooks used by me in a routine work, check on a [github](https://github.com/softasap)  |
 | :pencil: blogging | I do some rare blogging at https://medium.com/@V_Voronenko |
 
 
@@ -42,6 +42,8 @@ src="https://img.shields.io/badge/lua-%232C2D72.svg?&style=for-the-badge&logo=lu
 src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/>&nbsp;<img
 src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
 
+Note: Lua - in scope of kong and nginx only
+
 #### I am helping customers with ops solutions for most often used cd/ci systems
 <img src="https://img.shields.io/badge/gitlab%20-%23181717.svg?&style=for-the-badge&logo=gitlab&logoColor=white"/>&nbsp;<img
 src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>&nbsp;<img
@@ -49,5 +51,9 @@ src="https://img.shields.io/badge/jenkins%20-%232C5263.svg?&style=for-the-badge&
 src="https://img.shields.io/badge/CIRCLECI%20-%23161616.svg?&style=for-the-badge&logo=circleci&logoColor=white"/>&nbsp;<img
 src="https://img.shields.io/badge/bitbucket%20-%230047B3.svg?&style=for-the-badge&logo=bitbucket&logoColor=white"/>
 
+usually using, but not limited to
+
+<img src="https://img.shields.io/badge/terraform%20-%235835CC.svg?&style=for-the-badge&logo=terraform&logoColor=white"/>&nbsp;<img
+src="https://img.shields.io/badge/ansible%20-%231A1918.svg?&style=for-the-badge&logo=ansible&logoColor=white"/>
 
 <p align="center"><a href="https://www.voronenko.info">CV Website</a> • <a href="https://www.reddit.com/user/voronenko/">Reddit</a> • <a href="https://twitter.com/slavko">Twitter</a> • <a href="https://www.linkedin.com/in/voronenkovyacheslav/">LinkedIn</a> • <a href="http://www.softasap.com/contacts.html">Contact</a></p>
