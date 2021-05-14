@@ -4,9 +4,12 @@ build:
 serve:
 	mkdocs serve
 
-cv-files:
+node_modules:
+	npm install
+
+cv-files: node_modules
 	node_modules/.bin/hackmyresume build cv/resume.json TO out/voronenko.all
-cv-analyze:
+cv-analyze: node_modules
 	node_modules/.bin/hackmyresume analyze cv/resume.json
-cv-validate:
+cv-validate: node_modules
 	node_modules/.bin/hackmyresume validate cv/resume.json
