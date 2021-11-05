@@ -618,7 +618,7 @@
     {
       "title": "Programming in HTML5 with JavaScript and CSS3 (Microsoft 70-480)",
       "summary": "",
-      "awarder": "Prometric",
+      "awarder": "Microsoft",
       "date": "2013-01-01",
       "fullDate": {
         "year": 2013,
@@ -638,11 +638,21 @@
     {
       "title": "Project Management Professional",
       "summary": "Credential ID 1498620",
-      "awarder": "Project Management Institute(PMI) via Prometric Testing Center",
+      "awarder": "Project Management Institute(PMI)",
       "date": "2012-04-01",
       "fullDate": {
         "year": 2012,
         "month": 4
+      }
+    },
+    {
+      "title": "AWS Certified Solutions Architect - Associate",
+      "summary": "Validation Number ET2ZNNDJMFRQ1KSN",
+      "awarder": "AWS",
+      "date": "2021-10-28",
+      "fullDate": {
+        "year": 2021,
+        "month": 28
       }
     }
   ],
