@@ -1,7 +1,7 @@
 {
    "awards": [
       {
-         "awarder": "Prometric",
+         "awarder": "Microsoft",
          "date": "2013-01-01",
          "fullDate": {
             "month": 1,
@@ -21,7 +21,7 @@
          "title": "IBM Certified Solution Developer, XML and Related technologies"
       },
       {
-         "awarder": "Project Management Institute(PMI) via Prometric Testing Center",
+         "awarder": "Project Management Institute(PMI)",
          "date": "2012-04-01",
          "fullDate": {
             "month": 4,
@@ -29,6 +29,17 @@
          },
          "summary": "Credential ID 1498620",
          "title": "Project Management Professional"
+      },
+      {
+         "awarder": "AWS",
+         "date": "2021-10-28",
+         "fullDate": {
+            "day": 28,
+            "month": 10,
+            "year": 2021
+         },
+         "summary": "Validation Number ET2ZNNDJMFRQ1KSN",
+         "title": "AWS Certified Solutions Architect - Associate"
       }
    ],
    "basics": {
