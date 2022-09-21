@@ -22,14 +22,17 @@ On a current round I am collaborating mostly with a startups as a hired gun.
 
 #### Tech Stack I do usually work with
 <!-- https://github.com/Ileriayo/markdown-badges -->
-<img src="https://img.shields.io/badge/AWS%20-%23FF9900.svg?&style=for-the-badge&logo=amazon-aws&logoColor=white"/>&nbsp;<img 
-src="https://img.shields.io/badge/Openstack-%23f01742.svg?&style=for-the-badge&logo=openstack&logoColor=white"/>&nbsp;<img
+<img src="https://img.shields.io/badge/AWS%20-%23FF9900.svg?&style=for-the-badge&logo=amazon-aws&logoColor=white"/>&nbsp;<img
 src="https://img.shields.io/badge/DigitalOcean-%230167ff.svg?&style=for-the-badge&logo=digitalOcean&logoColor=white"/>&nbsp;<img
-src="https://img.shields.io/badge/Google%20Cloud%20-%234285F4.svg?&style=for-the-badge&logo=google-cloud&logoColor=white"/>&nbsp;<img
 src="https://img.shields.io/badge/docker%20-%230db7ed.svg?&style=for-the-badge&logo=docker&logoColor=white"/>&nbsp;<img
 src="https://img.shields.io/badge/kubernetes%20-%23326ce5.svg?&style=for-the-badge&logo=kubernetes&logoColor=white"/>
 
-Note: google cloud platfrom is chosen by customers more rarely than aws one.
+#### Tech Stack I used to work with, but is chosen by clients very occasionally
+<img 
+src="https://img.shields.io/badge/Openstack-%23f01742.svg?&style=for-the-badge&logo=openstack&logoColor=white"/>&nbsp;<img
+src="https://img.shields.io/badge/Google%20Cloud%20-%234285F4.svg?&style=for-the-badge&logo=google-cloud&logoColor=white"/>&nbsp;
+
+Note: google cloud platfrom is chosen by customers more rarely than aws one. Openstack even more rarely than google cloud :)
 
 #### Languages I am familiar with
 
