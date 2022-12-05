@@ -4,22 +4,27 @@ on:
   push:
     branches:
       - master
-      - github-action
+      - mkdocs-update
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: "recursive"
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v2
         with:
-          python-version: '3.6'
+          python-version: '3.9'
           architecture: 'x64'
+
+      - uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}
+          path: .cache
 
       # todo: move to action
       - name: Setup plantuml with deps
@@ -45,7 +50,7 @@ jobs:
         run: pipenv run mkdocs build
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3.7.3
+        uses: peaceiris/actions-gh-pages@v3.9.0
         with:
           publish_dir: ./site
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}

@@ -55,18 +55,21 @@ theme:
     code: 'Ubuntu Mono'
 
 # Options
+
 extra:
 #  logo: 'images/download.svg'
   feature:
     tabs: false
+# choose path at https://github.com/FortAwesome/Font-Awesome
+# choose look at  https://fontawesome.com/icons/globe?s=solid&f=classic
   social:
-    - type: globe
+    - icon: fontawesome/solid/globe
       link: https://www.voronenko.info
-    - type: github-alt
+    - icon: fontawesome/brands/github-alt
       link: https://github.com/voronenko
-    - type: twitter
+    - icon: fontawesome/brands/twitter
       link: https://twitter.com/slavko
-    - type: linkedin
+    - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/voronenkovyacheslav/
 
 markdown_extensions:
