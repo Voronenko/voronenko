@@ -40,6 +40,8 @@ plugins:
   - mkdocs-simple-hooks:
 #      hooks:
 #        - hook-name: "your.module:hook_function"
+  - tags
+  - categories
 # Configuration
 theme:
   name: 'material'

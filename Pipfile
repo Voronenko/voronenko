@@ -21,7 +21,7 @@ pymdown-extensions = "~=9.9"
 #mkdocs-toc-sidebar-plugin = "~=0.1.0"
 fontawesome-markdown = "*"
 mkdocs-simple-hooks = "*"
-adr-tools-python = "*"
+mkdocs-categories-plugin = "~=0.2.1"
 
 [requires]
 python_version = "3.9"
