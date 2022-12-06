@@ -17,6 +17,7 @@ plugins:
         - '.*\.(tmp|bin|tar|template)$'
         - '\.ipynb_checkpoints'
   - macros
+  - table-reader
   - mknotebooks:
       execute: false
       preamble: "preamble.py"
