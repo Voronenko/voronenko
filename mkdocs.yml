@@ -16,8 +16,8 @@ plugins:
       regex:
         - '.*\.(tmp|bin|tar|template)$'
         - '\.ipynb_checkpoints'
-  - macros
   - table-reader
+  - macros
   - mknotebooks:
       execute: false
       preamble: "preamble.py"
