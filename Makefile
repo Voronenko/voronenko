@@ -8,7 +8,7 @@ node_modules:
 	npm install
 
 cv-files: node_modules
-	node_modules/.bin/hackmyresume build cv/resume.json TO out/voronenko.all
+	node_modules/.bin/hackmyresume build cv/resume.json TO out/cv.all
 cv-analyze: node_modules
 	node_modules/.bin/hackmyresume analyze cv/resume.json
 cv-validate: node_modules
