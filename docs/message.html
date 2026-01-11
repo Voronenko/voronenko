@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Message me in private</title>
+  <script src="/assets/openpgp.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            mono: ['Consolas', 'Monaco', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-gray-50 min-h-screen font-sans text-gray-900 py-10 px-4 sm:px-6 lg:px-8">
+
+  <div class="max-w-3xl mx-auto">
+    <h1 class="text-3xl font-extrabold text-center mb-10 text-gray-900">Message me in private</h1>
+
+    <div class="space-y-6">
+
+      <!-- Message Section -->
+      <div class="message bg-white shadow sm:rounded-lg overflow-hidden">
+        <div class="px-4 py-5 sm:p-6">
+          <h2 class="text-lg leading-6 font-medium text-gray-900 mb-2">Message to encrypt</h2>
+          <textarea rows="5"
+            class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 border rounded-md p-3 font-mono"
+            placeholder="Type your message here..."></textarea>
+        </div>
+      </div>
+
+      <!-- Public Keys Section -->
+      <div id="public-keys" class="space-y-6">
+        <div class="public-key bg-white shadow sm:rounded-lg overflow-hidden">
+          <div class="px-4 py-5 sm:p-6">
+            <div class="flex justify-between items-center mb-2">
+              <h2 class="text-lg leading-6 font-medium text-gray-900">Public key</h2>
+            </div>
+            <p class="hint text-sm text-gray-500 mb-3">Only the person who has a private key will be able to decrypt the
+              message. My public key is prepopulated below.</p>
+            <textarea rows="7"
+              class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-xs border-gray-300 border rounded-md p-3 font-mono bg-gray-50 text-gray-600"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Private Key Section -->
+      <div id="private-key" class="hidden bg-white shadow sm:rounded-lg overflow-hidden">
+        <div class="px-4 py-5 sm:p-6 space-y-4">
+          <div>
+            <h2 class="text-lg leading-6 font-medium text-gray-900 mb-2">Private Key</h2>
+            <textarea rows="5"
+              class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 border rounded-md p-3 font-mono"></textarea>
+          </div>
+          <div>
+            <h2 class="text-lg leading-6 font-medium text-gray-900 mb-2">Passphrase</h2>
+            <textarea rows="2"
+              class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 border rounded-md p-3 font-mono"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div class="flex flex-wrap gap-4 pt-4">
+        <button id="encrypt"
+          class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+          Encrypt Message
+        </button>
+        <button id="add-public-key"
+          class="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+          Add Another Public Key
+        </button>
+        <button id="add-private-key"
+          class="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+          Decrypt (Add Private Key)
+        </button>
+      </div>
+
+      <!-- Output -->
+      <div class="bg-gray-900 shadow sm:rounded-lg overflow-hidden mt-8">
+        <div class="px-4 py-5 sm:p-6">
+          <h2 class="text-white text-sm font-medium uppercase tracking-wide mb-2">Encrypted Output</h2>
+          <pre id="output"
+            class="text-green-400 font-mono text-sm overflow-x-auto whitespace-pre-wrap break-all min-h-[100px]"></pre>
+        </div>
+      </div>
+
+      <p class="text-center text-sm text-gray-500 mt-8">
+        This page uses industry vetted open source <a href="https://github.com/openpgpjs/openpgpjs"
+          class="text-indigo-600 hover:text-indigo-500">OpenPGP.js</a> and does not submit anything to the server.<br>
+        Everything happens in your browser and is completely lost when you close this page.<br><br>
+        You can now send me sensitive information via email, messenger, and other public channels.
+      </p>
+
+    </div>
+  </div>
+
+  <script>
+    const query = query => document.querySelector(query);
+    const queryAll = query => Array.prototype.slice.apply(document.querySelectorAll(query));
+
+    // We need to be careful: the initial state has one public key div.
+    // The 'click' handler appends a new one. The new one should also be styled.
+
+    let publicKeyTemplate = "";
+
+    // Prepopulate public key
+    const publicKey = `-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+LUC4NNX9bLRL1FOi1oHRQpfvWCm+h6PUYZenCg==
+=h6UH
+-----END PGP PUBLIC KEY BLOCK-----`;
+
+    // Defer initialization to ensure DOM elements are ready
+    const pkArea = query('.public-key textarea');
+    if (pkArea) pkArea.value = publicKey;
+
+    publicKeyTemplate = query('#public-keys').innerHTML;
+
+    query('#add-public-key').addEventListener('click', () => {
+      const element = document.createElement('div');
+      element.innerHTML = publicKeyTemplate;
+      query('#public-keys').appendChild(element);
+    });
+
+    query('#add-private-key').addEventListener('click', () => {
+      const pk = query('#private-key');
+      pk.classList.remove('hidden');
+      pk.classList.add('block');
+      // Scroll to it
+      pk.scrollIntoView({ behavior: 'smooth' });
+    });
+
+    function getKey(textarea, type) {
+      const { value } = textarea;
+      if (!value) {
+        throw new Error(`${type} key missing`);
+      }
+      return openpgp.key.readArmored(value).keys[0];
+    }
+
+    function getPrivateKey() {
+      const pkDiv = query('#private-key');
+      // Check visibility using class
+      if (pkDiv.classList.contains('hidden')) {
+        return Promise.resolve();
+      }
+
+      const [key, passphrase] = queryAll('#private-key textarea');
+      return openpgp.decryptKey({
+        privateKey: getKey(key, 'private'),
+        passphrase: passphrase.value,
+      })
+        .then(({ key }) => key)
+        ;
+    }
+
+    query('#encrypt').addEventListener('click', () => {
+      getPrivateKey().then(privateKey => {
+        const options = {
+          data: query('.message textarea').value,
+          publicKeys: queryAll('.public-key textarea').map(el => getKey(el, 'public')),
+          privateKey: privateKey,
+          armor: true,
+        };
+
+        return openpgp.encrypt(options).then(results => {
+          query('#output').textContent = results.data;
+        });
+      })
+        .catch(err => alert(err.message))
+        ;
+    });
+  </script>
+</body>
+
+</html>

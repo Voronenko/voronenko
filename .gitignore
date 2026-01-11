@@ -2,6 +2,7 @@ __pycache__
 p-env
 .venv
 site
+
 *.tmp
 .vscode
 .ipynb_checkpoints
