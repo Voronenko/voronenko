@@ -53,6 +53,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3.9.0
         with:
           publish_dir: ./site
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
 
