@@ -247,50 +247,57 @@ LUC4NNX9bLRL1FOi1oHRQpfvWCm+h6PUYZenCg==
       pk.scrollIntoView({ behavior: 'smooth' });
     });
 
-    function getKey(textarea, type) {
+    async function getKey(textarea, type) {
       const { value } = textarea;
       if (!value) {
         throw new Error(`${type} key missing`);
       }
-      return openpgp.key.readArmored(value).keys[0];
+      return await openpgp.readKey({ armoredKey: value });
     }
 
-    function getPrivateKey() {
+    async function getPrivateKey() {
       const pkDiv = query('#private-key');
       // Check visibility using class
       if (pkDiv.classList.contains('hidden')) {
-        return Promise.resolve();
+        return undefined;
       }
 
-      const [key, passphrase] = queryAll('#private-key textarea');
-      return openpgp.decryptKey({
-        privateKey: getKey(key, 'private'),
-        passphrase: passphrase.value,
-      })
-        .then(({ key }) => key)
-        ;
+      const [keyArea, passphraseArea] = queryAll('#private-key textarea');
+      const privateKey = await getKey(keyArea, 'private');
+
+      return await openpgp.decryptKey({
+        privateKey: privateKey,
+        passphrase: passphraseArea.value,
+      });
     }
 
-    query('#encrypt').addEventListener('click', () => {
-      getPrivateKey().then(privateKey => {
+    query('#encrypt').addEventListener('click', async () => {
+      try {
+        const privateKey = await getPrivateKey();
+        const messageText = query('.message textarea').value;
+        const message = await openpgp.createMessage({ text: messageText });
+
+        const publicKeyPromises = queryAll('.public-key textarea').map(el => getKey(el, 'public'));
+        const publicKeys = await Promise.all(publicKeyPromises);
+
         const options = {
-          data: query('.message textarea').value,
-          publicKeys: queryAll('.public-key textarea').map(el => getKey(el, 'public')),
-          privateKey: privateKey,
-          armor: true,
+          message: message,
+          encryptionKeys: publicKeys,
+          signingKeys: privateKey,
         };
 
-        return openpgp.encrypt(options).then(results => {
-          const output = query('#output');
-          output.textContent = results.data;
+        const encrypted = await openpgp.encrypt(options);
 
-          // Show action buttons
-          query('#copy-clipboard').classList.remove('hidden');
-          query('#email-output').classList.remove('hidden');
-        });
-      })
-        .catch(err => alert(err.message))
-        ;
+        const output = query('#output');
+        output.textContent = encrypted;
+
+        // Show action buttons
+        query('#copy-clipboard').classList.remove('hidden');
+        query('#email-output').classList.remove('hidden');
+      } catch (err) {
+        alert(err.message);
+        console.error(err);
+      }
     });
 
     query('#copy-clipboard').addEventListener('click', () => {
