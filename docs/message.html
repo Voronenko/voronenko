@@ -85,7 +85,19 @@
       <!-- Output -->
       <div class="bg-gray-900 shadow sm:rounded-lg overflow-hidden mt-8">
         <div class="px-4 py-5 sm:p-6">
-          <h2 class="text-white text-sm font-medium uppercase tracking-wide mb-2">Encrypted Output</h2>
+          <div class="flex justify-between items-center mb-2">
+            <h2 class="text-white text-sm font-medium uppercase tracking-wide">Encrypted Output</h2>
+            <div class="space-x-2">
+              <button id="copy-clipboard"
+                class="hidden inline-flex items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                Copy
+              </button>
+              <button id="email-output"
+                class="hidden inline-flex items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                Email to Vyacheslav
+              </button>
+            </div>
+          </div>
           <pre id="output"
             class="text-green-400 font-mono text-sm overflow-x-auto whitespace-pre-wrap break-all min-h-[100px]"></pre>
         </div>
@@ -269,11 +281,40 @@ LUC4NNX9bLRL1FOi1oHRQpfvWCm+h6PUYZenCg==
         };
 
         return openpgp.encrypt(options).then(results => {
-          query('#output').textContent = results.data;
+          const output = query('#output');
+          output.textContent = results.data;
+
+          // Show action buttons
+          query('#copy-clipboard').classList.remove('hidden');
+          query('#email-output').classList.remove('hidden');
         });
       })
         .catch(err => alert(err.message))
         ;
+    });
+
+    query('#copy-clipboard').addEventListener('click', () => {
+      const output = query('#output').textContent;
+      if (output) {
+        navigator.clipboard.writeText(output).then(() => {
+          const btn = query('#copy-clipboard');
+          const originalText = btn.textContent;
+          btn.textContent = 'Copied!';
+          setTimeout(() => btn.textContent = originalText, 2000);
+        });
+      }
+    });
+
+    query('#email-output').addEventListener('click', () => {
+      const output = query('#output').textContent;
+      const messageBody = query('.message textarea').value;
+      if (output) {
+        const subject = encodeURIComponent("Encrypted Message for Vyacheslav");
+
+        const body = `Good day, Vyacheslav\n\n[ insert your public message here ]\n\nPlease find sensitive portion of the message attached below:\n\n${output}`;
+
+        window.location.href = `mailto:expertise-request[at]voronenko.info?subject=${subject}&body=${encodeURIComponent(body)}`;
+      }
     });
   </script>
 </body>
