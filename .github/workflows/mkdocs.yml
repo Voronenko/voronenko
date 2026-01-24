@@ -16,38 +16,31 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.9'
           architecture: 'x64'
 
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          version: latest
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+
       - uses: actions/cache@v4
         with:
-          key: ${{ github.ref }}
-          path: .cache
+          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
+          path: .venv
 
-      # todo: move to action
       - name: Setup plantuml with deps
         run:  DEBIAN_FRONTEND=noninteractive sudo apt-get -yq install plantuml graphviz
 
-    # commenting for now: use this if we start running tests via gh-actions!
-    # for now, only mkdocs is required - no need to install/cache all requirements
-    #  - name: Cache dependencies
-    #    uses: actions/cache@v1
-    #    with:
-    #      path: ~/.cache/pip
-    #      key: $-pip-$
-    #      restore-keys: |
-    #        $-pip-
-
       - name: Install dependencies
-        run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install -U pipenv
-          pipenv sync
+        run: poetry install --no-interaction --no-root
 
       - name: Build site
-        run: pipenv run mkdocs build
+        run: poetry run mkdocs build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.9.0
@@ -55,4 +48,3 @@ jobs:
           publish_dir: ./site
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-

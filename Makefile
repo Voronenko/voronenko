@@ -1,8 +1,8 @@
 build:
-	mkdocs build
+	poetry run mkdocs build
 
 serve:
-	mkdocs serve
+	poetry run mkdocs serve
 
 node_modules:
 	npm install
