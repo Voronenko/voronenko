@@ -16,8 +16,8 @@ plugins:
       regex:
         - '.*\.(tmp|bin|tar|template)$'
         - '\.ipynb_checkpoints'
-  - table-reader
   - macros
+  - table-reader
   - mknotebooks:
       execute: false
       preamble: "preamble.py"
@@ -30,14 +30,7 @@ plugins:
 #          'old/file.md': 'new/file.md'
 #          'some_file.md': 'http://external.url.com/foobar'
   - blog:
-      format: "(%m/%d/%y)"
-      text-align: "right"
-      folder: blog
-      articles: 6
-      more-articles: "More articles (%)"
-      pagination: "Page % of %"
-      display-more-articles: true
-      display-article-date: true
+      pagination: true
   - mkdocs-simple-hooks:
 #      hooks:
 #        - hook-name: "your.module:hook_function"
@@ -77,13 +70,11 @@ extra:
 
 markdown_extensions:
   - admonition
-  - fontawesome_markdown
   - fenced_code
   - plantuml_markdown:
-  - codehilite
-  - markdown.extensions.admonition
-  - markdown.extensions.codehilite:
+  - pymdownx.highlight:
       guess_lang: false
+  - markdown.extensions.admonition
   - markdown.extensions.def_list
   - markdown.extensions.footnotes
   - markdown.extensions.meta
