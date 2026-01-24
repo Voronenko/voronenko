@@ -1,7 +1,9 @@
 ---
 title: AWS Community Nordics community day 2020
 description: AWS Community Nordics community day 2020
-tags: video, aws
+tags:
+  - video
+  - aws
 ---
 
 # AWS Community Nordics community day 2020
