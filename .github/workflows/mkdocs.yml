@@ -44,7 +44,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          poetry install --with dev
+          poetry install --with dev --no-root
           source $(poetry env info --path)/bin/activate
           echo "VIRTUAL_ENV=$(poetry env info --path)" >> $GITHUB_ENV
           echo "$(poetry env info --path)/bin" >> $GITHUB_PATH
